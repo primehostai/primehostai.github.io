@@ -620,6 +620,24 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Terms
+--------------------------------------------------------------*/
+.terms {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.terms h1, h3, p, li {
+  color: #4E1E7B;
+}
+
+@media (max-width: 768px) {
+  .terms img {
+    max-width: 40%;
+  }
+}
+
+/*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about .content {
@@ -643,6 +661,10 @@ section {
 .about p {
   margin: 15px 0 30px 0;
   line-height: 24px;
+}
+
+.about span {
+  color: #4E1E7B;
 }
 
 .about .btn-read-more {
