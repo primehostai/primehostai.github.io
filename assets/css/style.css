@@ -645,6 +645,10 @@ section {
   padding: 40px;
 }
 
+.about{
+  color: #4E1E7B;
+}
+
 .about h3 {
   font-size: 14px;
   font-weight: 700;
@@ -703,6 +707,13 @@ section {
   text-align: center;
   transition: 0.3s;
   height: 100%;
+}
+
+.values .box2 {
+  text-align: center;
+  transition: 0.3s;
+  height: 100%;
+  margin-top: 50px;
 }
 
 .values .box img {
@@ -932,6 +943,7 @@ section {
 
 .services .service-box.purple {
   border-bottom: 3px solid #4E1E7B;
+  height: 320px;
 }
 
 .services .service-box.purple .icon {
@@ -943,9 +955,9 @@ section {
   color: #4E1E7B;
 }
 
-.services .service-box.purple:hover {
+/* .services .service-box.purple:hover {
   background: #4E1E7B;
-}
+} */
 
 .services .service-box.blue {
   border-bottom: 3px solid #2db6fa;
@@ -960,9 +972,9 @@ section {
   color: #2db6fa;
 }
 
-.services .service-box.blue:hover {
+/* .services .service-box.blue:hover {
   background: #2db6fa;
-}
+} */
 
 .services .service-box.orange {
   border-bottom: 3px solid #f68c09;
@@ -977,9 +989,9 @@ section {
   color: #f68c09;
 }
 
-.services .service-box.orange:hover {
+/* .services .service-box.orange:hover {
   background: #f68c09;
-}
+} */
 
 .services .service-box.green {
   border-bottom: 3px solid #08da4e;
@@ -994,9 +1006,9 @@ section {
   color: #08da4e;
 }
 
-.services .service-box.green:hover {
+/* .services .service-box.green:hover {
   background: #08da4e;
-}
+} */
 
 .services .service-box.red {
   border-bottom: 3px solid #e9222c;
@@ -1011,9 +1023,9 @@ section {
   color: #e9222c;
 }
 
-.services .service-box.red:hover {
+/* .services .service-box.red:hover {
   background: #e9222c;
-}
+} */
 
 .services .service-box.pink {
   border-bottom: 3px solid #f51f9c;
@@ -1028,7 +1040,7 @@ section {
   color: #f51f9c;
 }
 
-.services .service-box.pink:hover {
+/* .services .service-box.pink:hover {
   background: #f51f9c;
 }
 
@@ -1040,7 +1052,7 @@ section {
 
 .services .service-box:hover .icon {
   background: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # Timeline steps
