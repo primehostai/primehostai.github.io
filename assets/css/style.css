@@ -698,6 +698,14 @@ section {
   transform: translateX(5px);
 }
 
+/* @media (max-width: 320px) { */
+@media (max-width:950px) {
+    .about img#second {
+        /* width: 20%; */
+        display: none;
+    }
+}
+
 /*--------------------------------------------------------------
 # Values
 --------------------------------------------------------------*/
