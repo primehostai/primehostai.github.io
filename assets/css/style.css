@@ -911,11 +911,15 @@ section {
 --------------------------------------------------------------*/
 .services .service-box {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  height: 100%;
-  padding: 60px 30px;
+  /* height: 100%; */
+  padding: 30px 30px;
   text-align: center;
   transition: 0.3s;
   border-radius: 5px;
+}
+
+.services .high {
+  height: 180px;
 }
 
 .services .service-box .icon {
@@ -951,7 +955,7 @@ section {
 
 .services .service-box.purple {
   border-bottom: 3px solid #4E1E7B;
-  height: 320px;
+  height: 220px;
 }
 
 .services .service-box.purple .icon {
@@ -1061,6 +1065,12 @@ section {
 .services .service-box:hover .icon {
   background: #fff;
 } */
+
+@media (max-width: 768px) {
+  .services img {
+    max-width: 60%;
+  }
+}
 
 /*--------------------------------------------------------------
 # Timeline steps
