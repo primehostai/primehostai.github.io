@@ -489,7 +489,7 @@ section {
 }
 
 .hero h2 {
-  color: #9341f1;
+  color: #4E1E7B;
   margin: 15px 0 0 0;
   font-size: 26px;
 }
@@ -2630,5 +2630,9 @@ section {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
+  color: #4E1E7B;
+}
+
+.footer .credits a{
   color: #4E1E7B;
 }
