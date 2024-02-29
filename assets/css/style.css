@@ -483,7 +483,7 @@ section {
 
 .hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 800;
   color: #522685;
 }
@@ -491,7 +491,7 @@ section {
 .hero h2 {
   color: #4E1E7B;
   margin: 15px 0 0 0;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .hero .btn-get-started {
