@@ -2672,3 +2672,27 @@ section {
 .footer .credits a{
   color: #4E1E7B;
 }
+
+#exampleCarousel{
+  width:80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.carousel-control-prev {
+  margin-left: -100px;
+}
+
+.carousel-control-next {
+  margin-right: -100px;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.carousel-indicators {
+  margin-bottom: -50px;
+  filter: invert(100%);
+}
