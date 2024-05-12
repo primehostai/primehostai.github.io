@@ -3,7 +3,6 @@ content:
     label: Documentation
     type: collection
     path: src/docs
-    filename: "{primary}.md"
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: description, label: Description, type: string, options: { maxlength: 500 }}
