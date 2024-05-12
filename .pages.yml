@@ -2,7 +2,7 @@ content:
   - name: docs
     label: Documentation
     type: collection
-    path: src/docs
+    path: docs/src/docs
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: description, label: Description, type: string }
