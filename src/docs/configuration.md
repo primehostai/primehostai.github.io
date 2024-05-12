@@ -1,5 +1,6 @@
 ---
 title: Configuration
+description: test
 order: 2
 ---
 ## The .pages.yml file
