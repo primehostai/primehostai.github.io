@@ -1,4 +1,3 @@
-
 .prose > * {
   @apply first:!mt-0;
 }
@@ -82,7 +81,7 @@
 }
 
 .prose a {
-  @apply underline hover:decoration-neutral-400 dark:hover:decoration-neutral-500 transition-colors;
+  @apply underline hover:no-underline;
 }
 
 .prose strong,

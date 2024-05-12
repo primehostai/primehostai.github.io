@@ -1,8 +1,8 @@
+@import './codemirror.css';
+@import './datagrid.css';
+@import './filebrowser.css';
+@import './tiptap.css';
 @import './prose.css';
-@import './highlightjs.css';
-@import './custom.css';
-@import './carousel.css';
-@import './modal.css';
 
 @tailwind base;
 @tailwind components;
@@ -12,6 +12,10 @@
 
 body {
   @apply font-normal bg-white text-neutral-950 dark:bg-neutral-950 dark:text-white;
+}
+
+#app {
+  @apply min-h-screen w-full;
 }
 
 .custom-shadow {
@@ -31,7 +35,7 @@ html.dark .custom-shadow {
 /* Chip */
 
 .chip {
-  @apply inline-flex items-center gap-x-2 rounded-full py-0.5 px-2 text-xs capitalize;
+  @apply inline-flex items-center gap-x-2 rounded-full py-0.5 px-2 text-xs font-medium capitalize;
 }
 
 .chip-primary {
@@ -39,11 +43,7 @@ html.dark .custom-shadow {
 }
 
 .chip-secondary {
-  @apply chip bg-neutral-100 dark:bg-neutral-850;
-}
-
-.chip-danger {
-  @apply chip bg-red-200 text-red-500;
+  @apply chip bg-neutral-150 dark:bg-neutral-800;
 }
 
 /* Buttons */
@@ -207,8 +207,26 @@ button.btn-icon-danger-sm {
   @apply enabled:hover:bg-red-600 enabled:hover:border-red-600;
 }
 
-.btn-lg {
-  @apply py-2 px-4 lg:py-2.5 lg:px-5 text-lg;
+/* Sidebar */
+
+.sidebar-trigger {
+  @apply fixed bottom-4 left-4 z-100 p-3 text-white bg-neutral-950 hover:bg-neutral-700 dark:text-neutral-950 dark:bg-white dark:hover:bg-neutral-300 rounded-full cursor-pointer transition-all custom-shadow lg:hidden;
+}
+
+.sidebar-overlay {
+  @apply invisible opacity-0 lg:z-10 fixed inset-0 bg-neutral-950 bg-opacity-20 dark:bg-opacity-60 overflow-y-auto h-screen w-screen z-100 transition-all;
+}
+
+.sidebar-active .sidebar-overlay {
+  @apply visible opacity-100 lg:opacity-0 lg:invisible;
+}
+
+.sidebar-content {
+  @apply fixed inset-y-0 w-72 flex flex-col invisible opacity-0 z-150 custom-shadow -translate-x-full lg:visible lg:opacity-100 lg:z-auto lg:translate-x-0 lg:shadow-none	transition-all;
+}
+
+.sidebar-active .sidebar-content {
+  @apply visible opacity-100 translate-x-0;
 }
  
 /* Navigation (sidebar) */
@@ -233,11 +251,21 @@ button.btn-icon-danger-sm {
   @apply bg-neutral-100 dark:bg-neutral-850;
 }
 
-/* Forms */
+/* Tabs */
 
-.label {
-  @apply inline-block font-medium mb-2;
+.tabs {
+  @apply flex gap-x-8 font-medium text-neutral-400 dark:text-neutral-500;
 }
+
+.tabs > button {
+  @apply hover:text-neutral-950 dark:hover:text-white border-b-2 border-transparent transition-colors py-1;
+}
+
+.tabs > button.active {
+  @apply text-neutral-950 dark:text-white border-b-neutral-950 dark:border-b-white;
+}
+
+/* Forms */
 
 input[type='text'],
 input[type='password'],
@@ -276,7 +304,7 @@ textarea {
 }
 
 select {
-  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 15L12 20L17 15M7 9L12 4L17 9' stroke='%230a0a0a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%230a0a0a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-up-down"%3E%3Cpath d="m7 15 5 5 5-5"/%3E%3Cpath d="m7 9 5-5 5 5"/%3E%3C/svg%3E');
   background-position: right 0.75rem center;
   background-repeat: no-repeat;
   background-size: 1rem 1rem;
@@ -284,30 +312,37 @@ select {
 }
 
 html.dark select {
-  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 15L12 20L17 15M7 9L12 4L17 9' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-up-down"%3E%3Cpath d="m7 15 5 5 5-5"/%3E%3Cpath d="m7 9 5-5 5 5"/%3E%3C/svg%3E');
 }
 
-html.dark input[type='date'] {
+html.dark input[type='date'],
+html.dark input[type='datetime-local'],
+html.dark input[type='number'] {
   color-scheme: dark;
 }
 
 input[type='checkbox'] {
-  @apply text-neutral-950 dark:text-white border-0 bg-neutral-150 dark:bg-neutral-800 focus:outline-neutral-950 dark:focus:outline-white dark:checked:bg-white rounded-md cursor-pointer;
+  @apply text-neutral-950 dark:text-white border-0 bg-neutral-150 dark:bg-neutral-800 focus:outline-neutral-950 dark:focus:outline-white dark:checked:bg-white focus:ring-offset-white dark:focus:ring-offset-neutral-950 rounded-md cursor-pointer;
+}
+
+input[type='checkbox']:checked {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"%3E%3Cpath d="M20 6 9 17l-5-5"/%3E%3C/svg%3E');
+  background-size: 0.75rem 0.75rem;
 }
 
 html.dark input[type='checkbox']:checked {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%230a0a0a' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e") !important;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%230a0a0a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"%3E%3Cpath d="M20 6 9 17l-5-5"/%3E%3C/svg%3E');
 }
 
 .description {
-  @apply text-sm mb-2 -mt-1 text-neutral-400;
+  @apply text-sm mb-2 -mt-1 text-neutral-400 dark:text-neutral-500;
 }
 
 fieldset {
   @apply w-full bg-white dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-750 p-3 rounded-2xl mb-2;
 }
 
-.field-list-item > fieldset {
+.field-list-item > div > fieldset {
   @apply border-0 p-0 mb-0;
 }
 
@@ -326,11 +361,15 @@ fieldset .field:last-child {
 }
 
 .field-list-item {
-  @apply bg-white dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-750 p-1.5 flex gap-1 items-center rounded-xl mb-2;
+  @apply bg-white dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-750 px-3 py-1.5 flex gap-y-1 gap-x-3 items-center rounded-xl mb-2;
 }
 
 .field-list-item:last-child {
   @apply mb-0;
+}
+
+.field-type-object .field-list-item {
+  @apply px-3 py-4;
 }
 
 /* Spinner */
@@ -422,20 +461,113 @@ fieldset .field:last-child {
   @apply -translate-x-1/2 left-1/2;
 }
 
-.tooltip-bottom,
-.tooltip-bottom-right {
+.tooltip-right {
+  @apply tooltip right-2 translate-x-full group-hover:right-0;
+}
+
+.tooltip-bottom {
   @apply tooltip top-full group-hover:mt-0 mt-1;
 }
 
 .tooltip-top,
-.tooltip-top-right {
+.tooltip-top-right,
+.tooltip-top-left {
   @apply tooltip bottom-full group-hover:mb-0 mb-1;
 }
 
-.tooltip-bottom-right,
+.tooltip-top-left {
+  @apply left-0;
+}
+
 .tooltip-top-right {
   @apply right-0;
 }
+
+/* Toast notifications */
+
+.notifications {
+  @apply fixed right-0 bottom-0 p-8 max-w-[500px] z-100 flex flex-col gap-y-2 items-end;
+}
+
+.notification {
+  @apply flex items-start gap-x-2 p-3 rounded-xl bg-white dark:bg-neutral-850 custom-shadow;
+}
+
+.notification-content {
+  @apply grow;
+}
+
+.notification-message {
+  @apply text-sm font-medium;
+}
+
+.notification-actions {
+  @apply flex gap-x-2 mt-2;
+}
+
+.notification-icon {
+  @apply p-1 rounded-full text-white;
+}
+
+.notification-error .notification-icon  {
+  @apply bg-red-500;
+}
+
+.notification-success .notification-icon  {
+  @apply bg-green-500;
+}
+
+.notification-warning .notification-icon  {
+  @apply bg-orange-500;
+}
+
+/* Modal */
+
+.modal-overlay {
+  @apply invisible opacity-0 fixed inset-0 bg-neutral-950 bg-opacity-20 dark:bg-opacity-60 overflow-y-auto h-screen w-screen z-50 transition-all;
+}
+
+.modal-wrapper {
+  @apply flex min-h-full items-end justify-center p-4 sm:items-center sm:p-0;
+}
+
+.modal-box {
+  @apply top-1/2 mx-auto custom-shadow rounded-2xl bg-white dark:bg-neutral-850 w-96 translate-y-4 sm:translate-y-0 sm:scale-95 transition-all;
+}
+
+.modal-header {
+  @apply flex justify-between items-center gap-x-2 p-4 border-b border-neutral-200 dark:border-neutral-750;
+}
+
+.modal-title {
+  @apply font-medium truncate;
+}
+
+.modal-close {
+  @apply btn-icon-secondary -my-2.5 -mr-2 lg:-my-3 lg:-mr-2.5;
+}
+
+.modal-body {
+  @apply p-4;
+}
+
+.modal-active.modal-overlay {
+  @apply visible opacity-100;
+}
+
+.modal-active .modal-box {
+  @apply translate-y-0 sm:scale-100;
+}
+
+.modal-body .error {
+  @apply !relative;
+}
+
+/* Repo picker modal */
+
+.modal-repo-menu .modal-box {
+  @apply !w-[500px];
+}s
 
 /* Table */
 
@@ -449,11 +581,15 @@ fieldset .field:last-child {
 
 .table th,
 .table td {
-  @apply py-1.5 px-2 first:pl-0 last:pr-0 border-b border-neutral-200 dark:border-neutral-750 align-top lg:table-cell;
+  @apply py-1.5 px-2 first:pl-0 last:pr-0 border-b border-neutral-200 dark:border-neutral-750 align-middle hidden lg:table-cell;
 }
 
 .table th {
   @apply font-medium text-xs text-neutral-400 dark:text-neutral-500 text-left;
+}
+
+.table td {
+  @apply whitespace-nowrap;
 }
 
 .table tr {
@@ -461,9 +597,13 @@ fieldset .field:last-child {
 }
 
 .table th.primary-field,
-.table td.primary-field,
-.table td.folder {
+.table td.primary-field {
   @apply max-w-[1px] w-full truncate;
+}
+
+.table th.field-type-string div,
+.table td.field-type-string div {
+  @apply max-w-[12rem] w-full truncate;
 }
 
 .table th.primary-field,
@@ -475,7 +615,41 @@ fieldset .field:last-child {
 }
 
 .table td.primary-field {
-  @apply font-medium;
+  @apply font-medium max-lg:!pl-0;
+}
+
+.table td.field-type-image > div {
+  @apply !w-8 !h-8 !pb-0 !rounded-lg;
+}
+
+.table td.field-type-boolean {
+  @apply text-xs;
+}
+
+/* Image preview */
+
+.image-gallery {
+  @apply grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6;
+}
+
+.image-preview {
+  @apply relative w-full;
+}
+
+.image-wrapper {
+  @apply bg-neutral-100 w-full pb-[100%] rounded-xl ring-1 ring-neutral-200 overflow-hidden relative;
+}
+
+.image-wrapper img {
+  @apply object-cover absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
+}
+
+.image-wrapper .image-loading {
+  @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
+}
+
+.image-controls {
+  @apply absolute bottom-0 right-0 z-10 flex p-2;
 }
 
 /* Custom scrollbar */
