@@ -1,22 +1,20 @@
 ---
-layout: default
 title: Configuration
-nav_order: 2
 ---
+# Configuration test
 
-# Configuration
-{: .no_toc }
+{: .no\_toc }
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
-{: .fs-6 .fw-300 }
+Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file. {: .fs-6 .fw-300 }
 
 ## Table of contents
-{: .no_toc .text-delta }
 
-1. TOC
-{:toc}
+{: .no\_toc .text-delta }
 
----
+1.  TOC {:toc}
+    
+
+* * *
 
 View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) file as an example.
 
@@ -71,10 +69,10 @@ search:
 ```
 
 ## Mermaid Diagrams
+
 {: .d-inline-block }
 
-New (v0.4.0)
-{: .label .label-green }
+New (v0.4.0) {: .label .label-green }
 
 The minimum configuration requires the key for `version` ([from jsDelivr](https://cdn.jsdelivr.net/npm/mermaid/)) in `_config.yml`:
 
@@ -87,7 +85,7 @@ mermaid:
 
 Provide a `path` instead of a `version` key to load the mermaid library from a local file.
 
-See [the Code documentation]({% link docs/ui-components/code.md %}#mermaid-diagram-code-blocks) for more configuration options and information.
+See \[the Code documentation\]({% link docs/ui-components/code.md %}#mermaid-diagram-code-blocks) for more configuration options and information.
 
 ## Aux links
 
@@ -120,13 +118,12 @@ heading_anchors: true
 ```
 
 ## External navigation links
+
 {: .d-inline-block }
 
-New (v0.4.0)
-{: .label .label-green }
+New (v0.4.0) {: .label .label-green }
 
-External links can be added to the navigation through the `nav_external_links` option.
-See [Navigation Structure]({% link docs/navigation-structure.md %}#external-navigation-links) for more details.
+External links can be added to the navigation through the `nav_external_links` option. See \[Navigation Structure\]({% link docs/navigation-structure.md %}#external-navigation-links) for more details.
 
 ## Footer content
 
@@ -150,14 +147,20 @@ gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 ```
 
-_note: `footer_content` is deprecated, but still supported. For a better experience we have moved this into an include called `_includes/footer_custom.html` which will allow for robust markup / liquid-based content._
+_note:_ `footer_content` is deprecated, but still supported. For a better experience we have moved this into an include called `_includes/footer_custom.html` which will allow for robust markup / liquid-based content.
 
-- the "page last modified" data will only display if a page has a key called `last_modified_date`, formatted in some readable date format
-- `last_edit_time_format` uses Ruby's DateTime formatter; see examples and more information [at this link.](https://apidock.com/ruby/DateTime/strftime)
-- `gh_edit_repository` is the URL of the project's GitHub repository
-- `gh_edit_branch` is the branch that the docs site is served from; defaults to `main`
-- `gh_edit_source` is the source directory that your project files are stored in (should be the same as [site.source](https://jekyllrb.com/docs/configuration/options/))
-- `gh_edit_view_mode` is `"tree"` by default, which brings the user to the github page; switch to `"edit"` to bring the user directly into editing mode
+*   the "page last modified" data will only display if a page has a key called `last_modified_date`, formatted in some readable date format
+    
+*   `last_edit_time_format` uses Ruby's DateTime formatter; see examples and more information [at this link.](https://apidock.com/ruby/DateTime/strftime)
+    
+*   `gh_edit_repository` is the URL of the project's GitHub repository
+    
+*   `gh_edit_branch` is the branch that the docs site is served from; defaults to `main`
+    
+*   `gh_edit_source` is the source directory that your project files are stored in (should be the same as [site.source](https://jekyllrb.com/docs/configuration/options/))
+    
+*   `gh_edit_view_mode` is `"tree"` by default, which brings the user to the github page; switch to `"edit"` to bring the user directly into editing mode
+    
 
 ## Color scheme
 
@@ -166,29 +169,15 @@ _note: `footer_content` is deprecated, but still supported. For a better experie
 color_scheme: dark
 ```
 
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+Preview dark color scheme
 
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
-
-See [Customization]({% link docs/customization.md %}) for more information.
+See \[Customization\]({% link docs/customization.md %}) for more information.
 
 ## Callouts
+
 {: .d-inline-block }
 
-New (v0.4.0)
-{: .label .label-green }
+New (v0.4.0) {: .label .label-green }
 
 To use this feature, you need to configure a `color` and (optionally) `title` for each kind of callout you want to use, e.g.:
 
@@ -199,15 +188,14 @@ callouts:
     color: red
 ```
 
-This uses the color `$red-000` for the background of the callout, and `$red-300` for the title and box decoration.[^dark] You can then style a paragraph as a `warning` callout like this:
+This uses the color `$red-000` for the background of the callout, and `$red-300` for the title and box decoration.\[^dark\] You can then style a paragraph as a `warning` callout like this:
 
 ```markdown
 {: .warning }
 A paragraph...
 ```
 
-[^dark]:
-    If you use the `dark` color scheme, this callout uses `$red-300` for the background, and `$red-000` for the title.
+\[^dark\]: If you use the `dark` color scheme, this callout uses `$red-300` for the background, and `$red-000` for the title.
 
 The colors `grey-lt`, `grey-dk`, `purple`, `blue`, `green`, `yellow`, and `red` are predefined; to use a custom color, you need to define its `000` and `300` levels in your SCSS files. For example, to use `pink`, add the following to your `_sass/custom/setup.scss` file:
 
@@ -233,17 +221,14 @@ You can change the default opacity (`0.2`) for all callouts, e.g.:
 callouts_opacity: 0.3
 ```
 
-You can also adjust the overall level of callouts.
-The value of `callouts_level` is either `quiet` or `loud`;
-`loud` increases the saturation and lightness of the backgrounds.
-The default level is `quiet` when using the `light` or custom color schemes,
-and `loud` when using the `dark color scheme.`
+You can also adjust the overall level of callouts. The value of `callouts_level` is either `quiet` or `loud`; `loud` increases the saturation and lightness of the backgrounds. The default level is `quiet` when using the `light` or custom color schemes, and `loud` when using the `dark color scheme.`
 
-See [Callouts]({% link docs/ui-components/callouts.md %}) for more information.
+See \[Callouts\]({% link docs/ui-components/callouts.md %}) for more information.
 
 ## Google Analytics
 
 {: .warning }
+
 > [Google Analytics 4 will replace Universal Analytics](https://support.google.com/analytics/answer/11583528). On **July 1, 2023**, standard Universal Analytics properties will stop processing new hits. The earlier you migrate, the more historical data and insights you will have in Google Analytics 4.
 
 Universal Analytics (UA) and Google Analytics 4 (GA4) properties are supported.
@@ -256,10 +241,10 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 ```
 
 ### Multiple IDs
-{: .d-inline-block .no_toc }
 
-New (v0.4.0)
-{: .label .label-green }
+{: .d-inline-block .no\_toc }
+
+New (v0.4.0) {: .label .label-green }
 
 This theme supports multiple comma-separated tracking IDs. This helps seamlessly transition UA properties to GA4 properties by tracking both for a while.
 
@@ -269,10 +254,10 @@ ga_tracking: "UA-1234567-89,G-1AB234CDE5"
 
 ## Document collections
 
-By default, the navigation and search include normal [pages](https://jekyllrb.com/docs/pages/).
-You can also use [Jekyll collections](https://jekyllrb.com/docs/collections/) which group documents semantically together.
+By default, the navigation and search include normal [pages](https://jekyllrb.com/docs/pages/). You can also use [Jekyll collections](https://jekyllrb.com/docs/collections/) which group documents semantically together.
 
 {: .warning }
+
 > Collection folders always start with an underscore (`_`), e.g. `_tests`. You won't see your collections if you omit the prefix.
 
 For example, put all your test files in the `_tests` folder and create the `tests` collection:
@@ -305,18 +290,11 @@ just_the_docs:
 
 The navigation for all your normal pages (if any) is displayed before those in collections.
 
-<span>New (v0.4.0)</span>{: .label .label-green }
-Including `nav_fold: true` in a collection configuration *folds* that collection:
-an expander symbol appears next to the collection name,
-and clicking it displays/hides the links to the top-level pages of the collection.[^js-disabled]
+New (v0.4.0){: .label .label-green } Including `nav_fold: true` in a collection configuration _folds_ that collection: an expander symbol appears next to the collection name, and clicking it displays/hides the links to the top-level pages of the collection.\[^js-disabled\]
 
-[^js-disabled]: <span>New (v0.6.0)</span>{: .label .label-green }
-    When JavaScript is disabled in the browser, all folded collections are automatically expanded,
-    since clicking expander symbols has no effect.
-    (In previous releases, navigation into folded collections required JavaScript to be enabled.)
+\[^js-disabled\]: New (v0.6.0){: .label .label-green } When JavaScript is disabled in the browser, all folded collections are automatically expanded, since clicking expander symbols has no effect. (In previous releases, navigation into folded collections required JavaScript to be enabled.)
 
-You can reference multiple collections.
-This creates categories in the navigation with the configured names.
+You can reference multiple collections. This creates categories in the navigation with the configured names.
 
 ```yaml
 collections:
@@ -335,6 +313,6 @@ just_the_docs:
       name: Tutorials
 ```
 
-When *all* your pages are in a single collection, its name is not displayed.
+When _all_ your pages are in a single collection, its name is not displayed.
 
 The navigation for each collection is a separate name space for page titles: a page in one collection cannot be a child of a page in a different collection, or of a normal page.
