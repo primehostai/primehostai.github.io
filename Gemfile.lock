@@ -1,14 +1,4 @@
-PATH
-  remote: .
-  specs:
-    just-the-docs (0.8.2)
-      jekyll (>= 3.8.5)
-      jekyll-include-cache
-      jekyll-seo-tag (>= 2.0)
-      rake (>= 12.3.1)
-
 GEM
-  remote: https://rubygems.org/
   specs:
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
@@ -59,6 +49,11 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    just-the-docs (0.8.2)
+      jekyll (>= 3.8.5)
+      jekyll-include-cache
+      jekyll-seo-tag (>= 2.0)
+      rake (>= 12.3.1)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -101,10 +96,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bundler (>= 2.3.5)
   jekyll-github-metadata (>= 2.15)
   jekyll-include-cache
-  just-the-docs!
+  just-the-docs
 
 BUNDLED WITH
    2.5.9
