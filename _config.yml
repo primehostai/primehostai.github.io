@@ -18,6 +18,7 @@ description: PrimeHost documentation
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://primehost.ai" # the base hostname & protocol for your site, e.g. http://example.com
 repository: just-the-docs/just-the-docs # for github-metadata
+theme: just-the-docs
 
 permalink: pretty
 
@@ -179,7 +180,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-github-metadata
   - jekyll-include-cache
-
+  - jekyll-default-layout
+  
 kramdown:
   syntax_highlighter_opts:
     block:
@@ -194,5 +196,3 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
-
-theme: just-the-docs
