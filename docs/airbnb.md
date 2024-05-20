@@ -4,14 +4,18 @@ description: "Add Niovi AI to your Airbnb Account "
 ---
 **Connect your Airbnb account with PrimeHost, add Niovi AI & reply faster than ever!**
 
-**Step 1:** Log into your Airbnb Account
+**Step 1:** Select the listing you wish to connect & Invite a Co-Host
 
-**Step 2:** Select the listing you wish to connect
+![](/docs/media/Screenshot 2024-05-20 at 5.58.38 PM-1.png)
 
-**Step 3:** Invite a Co-Host
+**Step 2:** Use the following e-mail: [primecohost@primehost.ai](mailto:cohost@primehost.ai)
 
-**Step 4:** Use the following e-mail: [primecohost@primehost.ai](mailto:cohost@primehost.ai)
+![](/docs/media/Screenshot 2024-05-20 at 6.01.34 PM.png)
 
-**Step 5:** Select Calendar & Inbox access only
+**Step 3:** Select Calendar & Inbox access only
 
-**Step 6:** Send invitation!
+![](/docs/media/Screenshot 2024-05-20 at 6.02.50 PM.png)
+
+**Step 4:** Send invitation!
+
+![](/docs/media/Screenshot 2024-05-20 at 6.03.44 PM.png)
