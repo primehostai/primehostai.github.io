@@ -18,4 +18,4 @@ description: "Add Niovi AI to your Airbnb Account "
 
 **STEP 4:** Send invitation!
 
-![](/docs/media/Screenshot 2024-05-20 at 6.03.44 PM.png)
+![](/docs/media/Screenshot 2024-05-20 at 6.15.58 PM.png)
