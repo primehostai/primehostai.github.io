@@ -2,11 +2,11 @@
 title: Suggested Replies
 description: Your guest communication in one place!
 ---
-#### **STEP 1**: Click “Integrations” on the Dashboard sidebar
+**STEP 1: Click “Integrations” on the Dashboard sidebar**
 
 ![](/docs/media/Screenshot 2024-05-20 at 6.25.56 PM.png)
 
-#### **STEP 2:** Click “Add to Slack” button
+**STEP 2: Click “Add to Slack” button**
 
 ![](/docs/media/Screenshot 2024-05-20 at 6.47.09 PM.png)
 
@@ -14,7 +14,7 @@ description: Your guest communication in one place!
 
 ![](/docs/media/Screenshot 2024-05-20 at 6.29.50 PM.png)
 
-#### **STEP 3:** Click on PrimeHost and enable PrimeHost bot to the channel.
+**STEP 3: Click on PrimeHost and enable PrimeHost bot to the channel.**
 
 <p style="text-align: start"><img src="/docs/media/Screenshot 2024-05-20 at 6.33.49 PM.png"></p>
 
