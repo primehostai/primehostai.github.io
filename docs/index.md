@@ -16,6 +16,8 @@ sdiuyg haiusyg duiaysg iusyd g {: .fs-6 .fw-300 }
 
 > This website documents the features of the current `main` branch of the Just the Docs theme. See \[the CHANGELOG\]({% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes.
 
+!\[Media\](/docs/media/image1.png)
+
 Just the Docs is a theme for generating static websites with [Jekyll](https://jekyllrb.com). You can write source files for your web pages using [Markdown](https://daringfireball.net/projects/markdown/), the [Liquid](https://github.com/Shopify/liquid/wiki) templating language, and HTML.\[^1\] Jekyll builds your site by converting all files that have [front matter](https://jekyllrb.com/docs/front-matter/) to HTML. Your [Jekyll configuration](https://jekyllrb.com/docs/configuration/) file determines which theme to use, and sets general parameters for your site, such as the URL of its home page.
 
 Jekyll builds this Just the Docs theme docs website using the theme itself. These web pages show how your web pages will look _by default_ when you use this theme. But you can easily _\[customize\]_ the theme to make them look completely different!
@@ -59,7 +61,7 @@ When contributing to this repository, please first discuss the change you wish t
 
 *   {% for contributor in site.github.contributors %}
     
-*   [<img src="{{ contributor.avatar_url }}" alt="{{ contributor.login }}" width="32" height="32">]({{ contributor.html_url }})
+*   \[<img src="{{ contributor.avatar_url }}" alt="{{ contributor.login }}" width="32" height="32">\]({{ contributor.html\_url }})
     
 *   {% endfor %}
     
