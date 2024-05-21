@@ -2,7 +2,7 @@
 title: Booking.com
 description: Import properties from Booking.com
 ---
-**Connect your Airbnb account with PrimeHost & reply faster than ever!**
+## **Connect your Airbnb account with PrimeHost & reply faster than ever!**
 
 In order to provide conversation-only information from [Booking.com](http://Booking.com) via emails we need to forward the emails that come from [mchat.booking.com](http://mchat.booking.com) (conversations only) to [cohost@primehost.ai](mailto:cohost@primehost.ai)
 
@@ -17,14 +17,16 @@ Select Inbound
 
 Click Add in the Expressions tab
 
-    1.  Select Advanced content match from the dropdown
-        
-    2.  Location → Sender Header
-        
-    3.  Content → [mchat.booking.com](http://mchat.booking.com) 
-        
-    4.  Click SAVE
-        
+```
+1.  Select Advanced content match from the dropdown
+    
+2.  Location → Sender Header
+    
+3.  Content → [mchat.booking.com](http://mchat.booking.com) 
+    
+4.  Click SAVE
+    
+```
 
 <img src="https://lh7-us.googleusercontent.com/iUEspCpqvTDfP8WaXUFnNwDapp7CZ5IVEC42uCWom_E6a-MdxIE2FYOPJSD9PjGqc8LSh3sZkH8gbANV-5dsMK6D-SsCHvzmK6xXwkfIQmiKHVw_uAUKhJOIo_vTNN-SR2NAMs1lvhU8g6_-s3kx7Xw" style="margin-left: 0px; margin-top: 0px;" width="433" height="336">
 
