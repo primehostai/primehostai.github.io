@@ -8,7 +8,7 @@ description: Connect your Guesty account
 
 **STEP 2: Login in or sign up**
 
-<img src="/docs/media/log%20in.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+<img src="/docs/media/log%20in%20large.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 **STEP 3: Click integrations button from the side bar**
 
