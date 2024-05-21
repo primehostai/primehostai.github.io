@@ -1,6 +1,7 @@
 ---
 title: Overview
 description: Here you can learn how to navigate around the Dashboard
+order: 0
 ---
 # Navigating around the Dashboard
 
