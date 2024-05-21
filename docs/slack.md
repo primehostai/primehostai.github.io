@@ -4,7 +4,7 @@ description: Your guest communication in one place!
 ---
 **STEP 1: Click “Integrations” on the Dashboard sidebar**
 
-![](/docs/media/Screenshot 2024-05-20 at 6.25.56 PM.png){: width=150 height=100}
+![](/docs/media/Screenshot 2024-05-20 at 6.25.56 PM.png){width=50%}
 
 **STEP 2: Click “Add to Slack” button**
 
