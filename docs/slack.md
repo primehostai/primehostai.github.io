@@ -4,7 +4,7 @@ description: Your guest communication in one place!
 ---
 **STEP 1: Click “Integrations” on the Dashboard sidebar**
 
-<img style="width: 60%"src="/docs/media/Screenshot 2024-05-20 at 6.25.56 PM.png">
+![](/docs/media/Screenshot 2024-05-20 at 6.25.56 PM.png){: width=150 height=100}
 
 **STEP 2: Click “Add to Slack” button**
 
@@ -12,7 +12,7 @@ description: Your guest communication in one place!
 
 **Follow the steps to create a free Slack account & add PrimeHost Integration to a channel.** Once you download & open Slack, enter the channel where you have invited PrimeHost Integration to join.
 
-!\[\](/docs/media/Screenshot 2024-05-20 at 6.29.50 PM.png)
+![](/docs/media/Screenshot 2024-05-20 at 6.29.50 PM.png)
 
 **STEP 3: Click on PrimeHost and enable PrimeHost bot to the channel.**
 
