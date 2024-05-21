@@ -6,7 +6,7 @@ description: Import properties from Booking.com
 
 In order to provide conversation-only information from [Booking.com](http://Booking.com) via emails we need to forward the emails that come from [mchat.booking.com](http://mchat.booking.com) (conversations only) to [cohost@primehost.ai](mailto:cohost@primehost.ai)
 
-#### **Using a Google workspace account:**
+## **Using a Google workspace account:**
 
 1.  [https://admin.google.com/ac/apps/gmail/compliance](https://admin.google.com/ac/apps/gmail/compliance)
     
@@ -24,15 +24,14 @@ In order to provide conversation-only information from [Booking.com](http://Book
 4.  Content → [mchat.booking.com](http://mchat.booking.com) 
     
 5.  Click SAVE
-    
 
-<img src="https://lh7-us.googleusercontent.com/iUEspCpqvTDfP8WaXUFnNwDapp7CZ5IVEC42uCWom_E6a-MdxIE2FYOPJSD9PjGqc8LSh3sZkH8gbANV-5dsMK6D-SsCHvzmK6xXwkfIQmiKHVw_uAUKhJOIo_vTNN-SR2NAMs1lvhU8g6_-s3kx7Xw" style="margin-left: 0px; margin-top: 0px;" width="433" height="336">
+<img src="/docs/media/Screenshot 2024-05-21 at 12.35.03 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 **Click Also deliver to → Add more recipients and add** [**cohost@primehost.ai**](mailto:cohost@primehost.ai)
 
 **Add a description for your rule e.g bcc com** [**primehost.ai**](http://primehost.ai)
 
-#### **Using Gmail Account**
+## **Using Gmail Account**
 
 To forward Gmail emails that come from any address ending with @[mchat.booking.com](http://mchat.booking.com) to [cohost@primehost.ai](mailto:cohost@primehost.ai), you can set up a filter in Gmail. Follow this step-by-step guide:
 
@@ -95,7 +94,7 @@ Once the forwarding address is verified, repeat the steps to create the filter a
 
 By following these steps, all incoming emails from any address ending with @[mchat.booking.com](http://mchat.booking.com) will be automatically forwarded to [cohost@primehost.ai](mailto:cohost@primehost.ai).
 
-#### **Using Office 365**
+## **Using Office 365**
 
 Go to [https://admin.exchange.microsoft.com/#/transportrules](https://admin.exchange.microsoft.com/#/transportrules)
 
@@ -109,4 +108,5 @@ Go to [https://admin.exchange.microsoft.com/#/transportrules](https://admin.exch
     
 4.  Click Finish and ensure the rule is activated
     
+
 <img src="/docs/media/Screenshot 2024-05-21 at 12.39.52 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
