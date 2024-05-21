@@ -20,6 +20,6 @@ description: Connect your Guesty account
 
 **STEP 5: Paste the API Token from your Guesty Account**
 
-<img src="/docs/media/Screenshot 2024-05-21 at 2.38.33 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+<img src="/docs/media/Guesty%20API%20key.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 **Your Listings have been imported, Happy chats! :)**
