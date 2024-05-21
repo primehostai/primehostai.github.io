@@ -1,5 +1,5 @@
 ---
-title: Suggested Replies
+title: Get Suggested Replies
 description: Your guest communication in one place!
 ---
 **STEP 1: Click “Integrations” on the Dashboard sidebar**
