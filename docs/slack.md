@@ -2,6 +2,8 @@
 title: Get Suggested Replies
 description: Your guest communication in one place!
 ---
+## **Use Slack & start getting suggested responses for your guest communication!**
+
 **STEP 1: Click “Integrations” on the Dashboard sidebar**
 
 <img src="/docs/media/Screenshot 2024-05-20 at 6.25.56 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
