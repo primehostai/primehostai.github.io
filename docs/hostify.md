@@ -15,3 +15,5 @@ description: Connect your Hostify account
 <img src="/docs/media/Screenshot 2024-05-20 at 6.25.56 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 **STEP 4: Select Hostify Integration**
+
+<img src="/docs/media/select%20hostify.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
