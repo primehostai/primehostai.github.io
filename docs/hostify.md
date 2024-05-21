@@ -17,3 +17,9 @@ description: Connect your Hostify account
 **STEP 4: Select Hostify Integration**
 
 <img src="/docs/media/select%20hostify.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
+**STEP 5: Paste the API Token from your Hostify Account**
+
+<img src="/docs/media/hostify%20api%20key.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
+**Your Listings have been imported, Happy chats! :)**
