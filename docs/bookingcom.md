@@ -109,5 +109,4 @@ Go to [https://admin.exchange.microsoft.com/#/transportrules](https://admin.exch
     
 4.  Click Finish and ensure the rule is activated
     
-
-![](/docs/media/Screenshot 2024-05-21 at 12.39.52 PM.png)
+<img src="/docs/media/Screenshot 2024-05-21 at 12.39.52 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
