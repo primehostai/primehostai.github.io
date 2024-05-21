@@ -101,7 +101,6 @@ Go to [https://admin.exchange.microsoft.com/#/transportrules](https://admin.exch
 
 **Add a rule:**
 
-```
 1.  Apply this rule if: The sender address matches [mchat.booking.com](http://mchat.booking.com)
     
 2.  Do the following: Add recipients to the Bcc box: [cohost@primehost.ai](mailto:cohost@primehost.ai)
@@ -109,6 +108,6 @@ Go to [https://admin.exchange.microsoft.com/#/transportrules](https://admin.exch
 3.  Define any time period you wish to activate the rule for
     
 4.  Click Finish and ensure the rule is activated
+    
 
-<img src="https://lh7-us.googleusercontent.com/8Jcn566AfwIiNZgF7r3FGpRO3yGqSC19egr-Acl6cgBLX7L_5iCsZvWxnDpJiohOAzIpr8M-rjqQW0BHuav7DNs_Erxumt_DEuVV5e2mlAJXulR7wWUqSF2MmGD1XoD50tsMIH2GT4zmYJt8_aCJJPw" style="margin-left: 0px; margin-top: 0px;" width="663" height="398">
-```
+![](/docs/media/Screenshot 2024-05-21 at 12.39.52 PM.png)
