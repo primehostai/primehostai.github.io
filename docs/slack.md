@@ -18,7 +18,7 @@ description: Your guest communication in one place!
 
 **STEP 3: Click on PrimeHost and enable PrimeHost bot to the channel.**
 
-<img src="/docs/media/creenshot 2024-05-20 at 6.33.49 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+<img src="/docs/media/Screenshot 2024-05-20 at 6.35.04 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 **Enable PrimeHost bot by adding it to the channel:**
 
