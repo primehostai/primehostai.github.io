@@ -16,4 +16,19 @@ description: Your guest communication in one place!
 
 **STEP 3: Click on PrimeHost and enable PrimeHost bot to the channel.**
 
-<p style="text-align: start"><img src="/docs/media/Screenshot 2024-05-20 at 6.33.49 PM.png"></p><p style="text-align: start"><strong>Enable PrimeHost bot by adding it to the channel:</strong></p><p style="text-align: start"><img src="/docs/media/Screenshot 2024-05-20 at 6.35.04 PM.png"></p><p style="text-align: start"><strong>Once the integration is done, you will start receiving messages. Click “Suggested Response” in order to open the generated reply.</strong></p><p style="text-align: start"><img src="/docs/media/Screenshot 2024-05-20 at 6.38.39 PM.png"></p><p style="text-align: start"><strong>You can edit any suggested reply &amp; then simply press "Send".</strong></p><p style="text-align: start"><img src="/docs/media/Screenshot 2024-05-20 at 6.40.20 PM.png"></p><p style="text-align: start"><strong>You can have Slack installed on your phone tablet or laptop. Happy chats :)</strong></p>
+<p style="display:flex; justify-content: center; align-item: center; width: 100%; height: 100%; border: 1px solid #D3D3D3; border-radius: 5px"><img src="/docs/media/creenshot 2024-05-20 at 6.33.49 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></p>
+  
+Enable PrimeHost bot by adding it to the channel:
+
+<p style="display:flex; justify-content: center; align-item: center; width: 100%; height: 100%; border: 1px solid #D3D3D3; border-radius: 5px"><img src="/docs/media/Screenshot 2024-05-20 at 6.35.04 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></p>
+
+
+Once the integration is done, you will start receiving messages. Click “Suggested Response” in order to open the generated reply.
+
+<p style="display:flex; justify-content: center; align-item: center; width: 100%; height: 100%; border: 1px solid #D3D3D3; border-radius: 5px"><img src="/docs/media/Screenshot 2024-05-20 at 6.38.39 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></p>
+
+You can edit any suggested reply &amp; then simply press "Send".
+
+<p style="display:flex; justify-content: center; align-item: center; width: 100%; height: 100%; border: 1px solid #D3D3D3; border-radius: 5px"><img src="/docs/media/Screenshot 2024-05-20 at 6.40.20 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></p>
+
+You can have Slack installed on your phone tablet or laptop. Happy chats :)</strong></p>
