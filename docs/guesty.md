@@ -2,3 +2,25 @@
 title: "Guesty "
 description: Connect your Guesty account
 ---
+**STEP 1: Go to** [**https://primehost.ai**](https://primehost.ai) **and click Dashboard**
+
+<img src="/docs/media/Screenshot 2024-05-20 at 7.02.51 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
+**STEP 2: Login in or sign up**
+
+**STEP 3: Click integrations button from the side bar**
+
+<img src="/docs/media/Screenshot 2024-05-20 at 6.25.56 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
+
+**STEP 4: Select Guesty**
+
+<img src="/docs/media/select%20guesty.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
+
+**STEP 5: Paste the API Token from your Guesty Account**
+
+<img src="/docs/media/Screenshot 2024-05-21 at 2.38.33 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
+
+**Your Listings have been imported, Happy chats! :)**
