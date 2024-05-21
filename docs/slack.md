@@ -4,7 +4,7 @@ description: Your guest communication in one place!
 ---
 **STEP 1: Click “Integrations” on the Dashboard sidebar**
 
-<p style="display:flex; justify-content: center; align-item: center; width: 100%; height: 100%; border: 1px solid #D3D3D3; border-radius: 5px"><img src="/docs/media/Screenshot 2024-05-20 at 6.25.56 PM.png" alt="Screenshot" style="margin: 10px; width: 80%; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></p>
+<p style="display:flex; justify-content: center; align-item: center; width: 100%; height: 100%; border: 1px solid #D3D3D3; border-radius: 5px"><img src="/docs/media/Screenshot 2024-05-20 at 6.25.56 PM.png" alt="Screenshot" style="margin: 10px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></p>
 
 **STEP 2: Click “Add to Slack” button**
 
