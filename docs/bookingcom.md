@@ -3,7 +3,7 @@ title: Booking.com
 description: Import properties from Booking.com
 order: 5
 ---
-## **Connect your Airbnb account with PrimeHost & reply faster than ever!**
+## **Connect** [**Booking.com**](http://Booking.com) **with PrimeHost & reply faster than ever!**
 
 In order to provide conversation-only information from [Booking.com](http://Booking.com) via emails we need to forward the emails that come from [mchat.booking.com](http://mchat.booking.com) (conversations only) to [cohost@primehost.ai](mailto:cohost@primehost.ai)
 
@@ -25,9 +25,9 @@ In order to provide conversation-only information from [Booking.com](http://Book
 4.  Content → [mchat.booking.com](http://mchat.booking.com) 
     
 5.  Click SAVE
+    
 
-<p style="display:flex; justify-content: center; align-item: center; width: 100%; height: 100%; border: 1px solid #D3D3D3; border-radius: 5px"><img src="/docs/media/Screenshot 2024-05-21 at 12.35.03 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></p>
-
+<img src="/docs/media/Screenshot 2024-05-21 at 12.35.03 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 **Click Also deliver to → Add more recipients and add** [**cohost@primehost.ai**](mailto:cohost@primehost.ai)
 
@@ -109,6 +109,6 @@ Go to [https://admin.exchange.microsoft.com/#/transportrules](https://admin.exch
 3.  Define any time period you wish to activate the rule for
     
 4.  Click Finish and ensure the rule is activated
-
-<p style="display:flex; justify-content: center; align-item: center; width: 100%; height: 100%; border: 1px solid #D3D3D3; border-radius: 5px"><img src="/docs/media/Screenshot 2024-05-21 at 12.39.52 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></p>
     
+
+<img src="/docs/media/Screenshot 2024-05-21 at 12.39.52 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
