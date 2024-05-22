@@ -1,6 +1,7 @@
 ---
 title: Booking.com
 description: Import properties from Booking.com
+order: 5
 ---
 ## **Connect your Airbnb account with PrimeHost & reply faster than ever!**
 
