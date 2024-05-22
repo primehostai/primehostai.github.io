@@ -32,6 +32,12 @@ Firstly, you need to connect PrimeHost to your existing communication platforms 
 
 **Suggested replies:**
 
-Whenever you get a guest message, PrimeHost will create an AI generated reply for you. We will do all the hard job for you, instead of writing from scratch. You can edit & approve the message, which will instantly reach your guest.
+Whenever you get a guest message, PrimeHost will create an AI generated reply for you. We will do all the hard job for you, instead of writing from scratch. You can edit & approve the message, which will instantly reach your guest. Saves you **TONS** of valuable time!
 
-![](/docs/media/Screenshot 2024-05-22 at 10.25.40 PM.png)
+<img src="/docs/media/Screenshot 2024-05-22 at 10.25.40 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
+**Instant communication:**
+
+We recommend that you use instant communication only after you have familiarised yourself with the AI & feel confident with the replies. You can share your AI Assistant with your guests, using a sharable link or by placing a QR in the property. Your guests will have access to their personal Assistant & can be instantly served 24/7. The best part? Guests **LOVE** to play around with the AI, while you get to relax & save valuable time replying to repetitive questions!
+
+<img src="/docs/media/Screenshot 2024-05-22 at 10.34.22 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
