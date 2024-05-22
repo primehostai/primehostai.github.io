@@ -3,7 +3,7 @@ title: Get Suggested Replies
 description: Your guest communication in one place!
 order: 2
 ---
-## **Connect Slack App with PrimeHost & get suggested replies!**
+## **Connect Slack with PrimeHost & get suggested replies!**
 
 **STEP 1: Click “Integrations” on the Dashboard sidebar**
 
