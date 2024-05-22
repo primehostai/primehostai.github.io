@@ -3,8 +3,6 @@ title: Overview
 description: Here you can learn how to navigate around the Dashboard
 order: 1
 ---
-<img src="/docs/media/Screenshot 2024-05-21 at 3.39.24 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-
 # About us:
 
 PrimeHost is an AI-powered guest messaging platform for Hotels & STR managers. It's a startup founded by a property manager and an all-star team of software engineers. Backed by leading investors in the Short Term Rental Industry, our mission is to **Make your guest interactions effortless & change the way guest communication works.**
