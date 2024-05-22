@@ -5,28 +5,28 @@ order: 1
 ---
 # About us:
 
-PrimeHost is an AI-powered guest messaging platform for Hotels & STR managers. It's a startup founded by a property manager and an all-star team of software engineers. Backed by leading investors in the Short Term Rental Industry, our mission is to **Make your guest interactions effortless & change the way guest communication works.**
+PrimeHost is an AI-powered guest messaging platform for Hotels & STR managers. It's a startup founded by a property manager and an all-star team of software engineers. Backed by leading investors in the Short Term Rental Industry, our mission is simple: **Make your guest interactions effortless & change the way guest communication works.**
 
 Guest communication is **key** in a successful Hospitality business. If you think about it, it's the **only** way that the property can provide personalized experiences, go the extra mile for their guests, show true commitment & eventually create an emotional bond that will revent into awesome reviews & repetitive customers.
 
 **What's the catch?** Great communication is **extremely time consuming!**
 
-You need to be available 24/7 for your guest's needs, always respond with clear & effective messages, keep a professional tone & of course, instantly handle emergencies. **What if there was another way?**
+You need to be available 24/7 for your guest's needs, always respond with clear & effective messages, keep a professional tone & of course, instantly handle emergencies. As you grow your successful business & serve lot's of customers, it's inevitable to lose in quality. **What if there was another way?**
 
 Your **All-in-One** AI Assistant, trained on the property to help you serve guests 24/7. In one word, **PrimeHost!**
 
-1.  Learns from the previous conversations of your properties
+1.  Learns from the previous conversations of your properties, so it's super easy to set up.
     
-2.  Helps with daily questions & inquiries
+2.  Helps with daily questions & inquiries.
     
-3.  Sends you Emergency alerts & notifications
+3.  Sends you emergency alerts & notifications so you can prioritise your time.
     
-4.  Reports back to you with real time data insights
+4.  Reports back to you with real time data insights, the most valuable source available.
     
 
 # How it works:
 
-Firstly, you need to connect PrimeHost to your existing communication platforms (OTAs, Whatsapp etc). PrimeHost will then have access to your information & guest messages, in order to train your assistant & learn from your previous conversations.
+Firstly, you need to connect PrimeHost to your existing communication platforms (OTAs, Whatsapp etc). PrimeHost will then have access to your online information & guest messages, which will utilise to train your assistant & learn from your previous conversations.
 
 **Suggested replies:**
 
