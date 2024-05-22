@@ -1,6 +1,7 @@
 ---
 title: Get Suggested Replies
 description: Your guest communication in one place!
+order: 2
 ---
 ## **Use Slack & start getting suggested responses for your guest communication!**
 
