@@ -16,4 +16,5 @@ content:
       - { name: title, label: Title, type: string, required: true }
       - { name: description, label: Description, type: string, options: { maxlength: 580 }}
       - { name: order, label: Order, type: number }
+      - { name: nav_order, label: nav_order, type: number }
       - { name: body, label: Body, type: rich-text }
