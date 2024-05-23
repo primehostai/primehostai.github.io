@@ -8,7 +8,7 @@ content:
     view:
       fields: [ title, order ]
       primary: title
-      sort: [ order ]
+      sort: [ order, title ]
       default:
         sort: order
         order: asc
