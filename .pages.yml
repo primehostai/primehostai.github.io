@@ -6,15 +6,14 @@ content:
     path: docs
     filename: "{primary}.md"
     view:
-      fields: [ title, order ]
+      fields: [ title, nav_order ]
       primary: title
-      sort: [ order, title ]
+      sort: [ nav_order, title ]
       default:
-        sort: order
+        sort: nav_order
         order: asc
     fields:
       - { name: title, label: Title, type: string, required: true }
-      - { name: description, label: Description, type: string, options: { maxlength: 580 }}
-      - { name: order, label: Order, type: number }
-      - { name: nav_order, label: nav_order, type: number }
+      - { name: description, label: Description, type: string }
+      - { name: nav_order, label: Order, type: number }
       - { name: body, label: Body, type: rich-text }
