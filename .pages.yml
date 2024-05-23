@@ -5,6 +5,13 @@ content:
     type: collection
     path: docs
     filename: "{primary}.md"
+    view:
+      fields: [ title, order ]
+      primary: title
+      sort: [ order ]
+      default:
+        sort: order
+        order: asc
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: description, label: Description, type: string, options: { maxlength: 580 }}
