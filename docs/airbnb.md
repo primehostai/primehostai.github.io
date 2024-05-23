@@ -1,7 +1,7 @@
 ---
 title: "Airbnb "
 description: "Add Niovi AI to your Airbnb Account "
-order: 4
+order: 1
 ---
 ## **Connect Airbnb with PrimeHost, add Niovi AI & reply faster than ever!**
 
