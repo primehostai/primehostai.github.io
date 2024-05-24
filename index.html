@@ -52,9 +52,8 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Connect</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="nav-link" href="/docs">Documentation</a></li>
+          <li><a class="nav-link" href="/docs" target="_blank">Documentation</a></li>
           <li><a class="getstarted scrollto" href="https://dashboard.primehost.ai/">Dashboard</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -65,14 +64,12 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center">
-
     <div class="container">
       <div class="row">
-        <div class="col-lg-1">
-        </div>
+        <div class="col-lg-1"></div>
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Your all-in-one AI Assistant</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Knows everything about the property, serves guests 24/7</h2>
+          <h1 data-aos="fade-up" style="font-size:33px">Make your guest interactions effortless</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">for Hotels and Property Managers</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -364,7 +361,17 @@
         </div>
 
         <div class="row gy-4" style="margin-top:20px">
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-2 col-md-2">
+          </div>
+
+          <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box purple" style="margin:auto;">
+              <!-- <i class="bi bi-person-walking icon"></i> -->
+              <img src="assets/img/whatsapp.svg" style="width:100%; margin-top: 15px;">
+              <!-- <h3>Post Stay Support</h3>
+              <p>Handle post-stay questions & engage with your guests.</p> -->
+              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+            </div>
           </div>
 
           <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="400">
@@ -377,7 +384,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-2 col-md-2" data-aos="fade-up" data-aos-delay="200">
           </div>
 
         </div>
@@ -833,7 +840,21 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    // Activate Carousel
+    $("#myCarousel").carousel;
 
+    // Enable Carousel Indicators
+    $(".item").click(function(){
+    $("#myCarousel").carousel(1);
+    });
+
+    // Enable Carousel Controls
+    $(".carousel-control-prev").click(function(){
+    $("#myCarousel").carousel("prev");
+    });
+  </script>
 </body>
 
 </html>
