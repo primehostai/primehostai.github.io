@@ -109,7 +109,7 @@
 
           <div class="col-sm-12 col-lg-5 col-md-5 d-flex align-items-center justify-content-center">
             <h5 style="text-align: center; vertical-align:middle; margin-right:20px; color: #4E1E7B">Backed by </h5>
-            <img src="assets/img/capsulet.png" class="img-fluid" alt="" style="width:100%">
+            <img src="assets/img/capsulet.png" class="img-fluid" alt="" style="width:50%">
           </div>
 
           <div class="col-sm-12 col-lg-5 col-md-5 d-flex align-items-center justify-content-center">
@@ -565,7 +565,7 @@
               <button type="button" data-bs-target="#exampleCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
               <button type="button" data-bs-target="#exampleCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
-          <div class="carousel-inner">
+          <div class="carousel-inner" style="height: 450px">
               <div class="carousel-item active">
                   <img src="assets/img/steps/step1.png" class="d-block w-100" alt="...">
               </div>
@@ -603,6 +603,16 @@
           <p>Pricing plans</p>
         </header>
 
+        <!-- <div class="row gy-4" data-aos="fade-left" style="text-align: center; margin-bottom: 50px">
+          <h4 id="output">8 € per rental, per month</h4>
+          <div id="output2">8 € total</div>
+          <div id="slider-container">
+            <label for="slider">Rentals: </label>
+            <span id="slider-value">1</span>
+            <input type="range" id="slider" class="slider" min="1" max="100" value="1">
+          </div>
+        </div> -->
+
         <div class="row gy-4" data-aos="fade-left">
 
           <div class="col-lg-2 col-md-2" data-aos="zoom-in" data-aos-delay="100">
@@ -638,7 +648,7 @@
               <!-- <i class="bi bi-building icon" style="font-size:4rem"></i> -->
               <ul>
                 <li>30 days free trial</li>
-                <li>Unlimited properties</li>
+                <li>500 rooms</li>
                 <li>Playground</li>
                 <li>QR assistant</li>
                 <li>Suggested replies</li>
@@ -651,10 +661,11 @@
             </div>
           </div>
 
-          <!-- <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+          <!--
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <h3 style="color: #4E1E7B;">Free Plan</h3>
-              <div class="price"><sup>€</sup>0<span></span></div>
+
               <img src="assets/img/values-1.png" class="img-fluid" alt="">
               <ul>
                 <li>Unlimited properties</li>
@@ -664,7 +675,7 @@
                 <li>24/h support</li>
                 <li class="na"> </li>
               </ul>
-              <a href="https://dashboard.primehost.ai/billing" class="btn-buy">Get started</a>
+
             </div>
           </div>
 
@@ -913,6 +924,38 @@
     $(".carousel-control-prev").click(function(){
     $("#myCarousel").carousel("prev");
     });
+
+    const slider = document.getElementById('slider');
+    const sliderValue = document.getElementById('slider-value');
+    const outputDiv = document.getElementById('output');
+    const output2Div = document.getElementById('output2');
+
+    slider.addEventListener('input', () => {
+      const inputValue = parseInt(slider.value);
+      sliderValue.textContent = inputValue;
+      let price = 8;
+      if (inputValue>=10 && inputValue<20){
+          price = 7;
+      }else if (inputValue>=20 && inputValue<30){
+          price = 6;
+      }else if (inputValue>=30 && inputValue<50){
+          price = 5;
+      }else if (inputValue>=50 && inputValue<100){
+          price = 4.5;
+      }else if (inputValue>=100){
+          price = -1;
+      }
+
+      if (price==-1){
+        outputDiv.textContent = `Contact us...`;
+        output2Div.textContent = ``;
+      }else{
+        const result = price*inputValue;
+        outputDiv.textContent = `${price} € per rental, per month`;
+        output2Div.textContent = `${result} € total`;
+      }
+    });
+
   </script>
 </body>
 
