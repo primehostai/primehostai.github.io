@@ -11,7 +11,7 @@ nav_order: 1
 
 **STEP 2: Use the following e-mail:** [**primecohost@primehost.ai**](mailto:cohost@primehost.ai)
 
-<img src="/docs/media/Screenshot 2024-05-20 at 6.20.06 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+<img src="/docs/media/Screenshot 2024-05-29 at 6.48.37 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 **STEP 3: Select Calendar & messaging access**
 
@@ -19,4 +19,4 @@ nav_order: 1
 
 **STEP 4: Send invitation!**
 
-<img src="/docs/media/Screenshot 2024-05-20 at 6.15.58 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+<img src="/docs/media/Screenshot 2024-05-29 at 6.52.12 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
