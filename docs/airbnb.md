@@ -9,7 +9,7 @@ nav_order: 1
 
 <img src="/docs/media/Screenshot 2024-05-20 at 6.21.28 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
-**STEP 2: Use the following e-mail:** [**primecohost@primehost.ai**](mailto:cohost@primehost.ai)
+**STEP 2: Use the following e-mail:** [**niovi@primehost.ai**](mailto:cohost@primehost.ai)
 
 <img src="/docs/media/Screenshot 2024-05-29 at 6.48.37 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
