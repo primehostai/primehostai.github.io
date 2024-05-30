@@ -1,9 +1,24 @@
 ---
 title: Booking.com
 description: Import properties from Booking.com
-order: 5
 ---
 ## **Connect** [**Booking.com**](http://Booking.com) **with PrimeHost & reply faster than ever!**
+
+**Step1: Invite a new user from your Booking.com extranet account**
+
+<img src="/docs/media/Screenshot 2024-05-30 at 8.17.32 PM-1.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
+**Step2: Select "Existing user", add login name:** [**PrimeHost.ai**](http://PrimeHost.ai) **& email: cohost@primehost.ai**
+
+<img src="/docs/media/Screenshot 2024-05-30 at 8.31.18 PM-1.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
+**Step3: Send invite!**
+
+<img src="/docs/media/Screenshot 2024-05-30 at 8.34.07 PM-1.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
+**You will see the invite as below:**
+
+<img src="/docs/media/Screenshot 2024-05-30 at 8.34.50 PM-2.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 In order to provide conversation-only information from [Booking.com](http://Booking.com) via emails we need to forward the emails that come from [mchat.booking.com](http://mchat.booking.com) (conversations only) to [cohost@primehost.ai](mailto:cohost@primehost.ai)
 
