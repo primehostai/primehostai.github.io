@@ -4,19 +4,23 @@ description: Connect your Guesty account
 ---
 **STEP 1: From your Guesty account, enter "Guesty Marketplace"**
 
-![](/docs/media/Screenshot 2024-05-30 at 6.14.05 PM.png)
+<img src="/docs/media/Screenshot 2024-05-30 at 6.14.05 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
 
 **STEP 2: Search & select "PrimeHost"**
 
-![](/docs/media/Screenshot 2024-05-30 at 6.14.47 PM.png)
+<img src="/docs/media/Screenshot 2024-05-30 at 6.14.47 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
 
 **STEP 3: Click "Connect"**
 
-![](/docs/media/Screenshot 2024-05-30 at 6.15.06 PM.png)
+<img src="/docs/media/Screenshot 2024-05-30 at 6.15.06 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
 
 **STEP 4: Copy the API Key**
 
-![](/docs/media/Screenshot 2024-05-30 at 6.15.29 PM.png)
+<img src="/docs/media/Screenshot 2024-05-30 at 6.15.29 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
 
 **STEP 5: Go to** [**https://primehost.ai**](https://primehost.ai) **and click Dashboard**
 
