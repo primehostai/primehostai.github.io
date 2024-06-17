@@ -51,7 +51,7 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .section-header h2 {
@@ -66,7 +66,7 @@ section {
 .section-header p {
   margin: 10px 0 0 0;
   padding: 0;
-  font-size: 38px;
+  font-size: 30px;
   line-height: 42px;
   font-weight: 700;
   color: #200B47;
@@ -239,6 +239,7 @@ section {
   color: #200B47;
   white-space: nowrap;
   transition: 0.3s;
+  text-align: center;
 }
 
 .navbar a i,
@@ -259,13 +260,29 @@ section {
 .navbar .getstarted:focus {
   background: #200B47;
   padding: 8px 20px;
-  margin-left: 30px;
+  margin-left: 20px;
   border-radius: 4px;
   color: #fff;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
+  color: #fff;
+  background: #4E1E7B;
+}
+
+.navbar .btn-login,
+.navbar .btn-login:focus {
+  background: white;
+  color: #200B47;
+  padding: 8px 20px;
+  margin-left: 20px;
+  border-radius: 4px;
+  border: 1px solid #200B47;
+}
+
+.navbar .btn-login:hover,
+.navbar .btn-login:focus:hover {
   color: #fff;
   background: #4E1E7B;
 }
@@ -986,6 +1003,21 @@ section {
   line-height: 0;
   margin-left: 5px;
   font-size: 18px;
+}
+
+.services .btn-get-started {
+  margin-top: 30px;
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #200B47;
+  box-shadow: 0px 5px 30px rgba(78, 30, 123, 0.4);
+}
+
+.services .btn-get-started:hover i {
+  transform: translateX(5px);
 }
 
 @media (min-width: 431px) {
