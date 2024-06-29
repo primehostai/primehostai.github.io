@@ -6,15 +6,15 @@ description: Connect PrimeHost to Booking.com
 
 If you don't use a PMS or simply manage a few properties, you can connect PrimeHost directly to your Booking.com account. You Assistant will be trained on Booking.com public information & incrementally from guest communication.
 
-**Step1: Invite a new user from your Booking.com extranet account**
+**Invite a new user from your Booking.com extranet account**
 
 <img src="/docs/media/Screenshot 2024-05-30 at 8.17.32 PM-1.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
-**Step2: Select "Existing user", add login name:** [**PrimeHost.ai**](http://PrimeHost.ai) **& email:** [**cohost@primehost.ai**](mailto:cohost@primehost.ai)
+**Select "Existing user", add login name:** [**PrimeHost.ai**](http://PrimeHost.ai) **& email:** [**cohost@primehost.ai**](mailto:cohost@primehost.ai)
 
 <img src="/docs/media/Screenshot 2024-05-30 at 8.31.18 PM-1.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
-**Step3: Send invite!**
+**Send invite!**
 
 <img src="/docs/media/Screenshot 2024-05-30 at 8.34.07 PM-1.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
