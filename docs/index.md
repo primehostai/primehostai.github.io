@@ -1,7 +1,6 @@
 ---
 title: Overview
 description: Here you can learn how to navigate around the Dashboard
-order: 0
 nav_order: 0
 ---
 # About us:
@@ -25,15 +24,17 @@ Your **All-in-One** AI Assistant, trained on the property to help you serve gues
 4.  Reports back to you with real time data insights, the most valuable source available.
     
 
+![](/docs/media/Screenshot 2024-06-29 at 5.29.42 PM.png)
+
 # How it works:
 
-Firstly, you need to connect PrimeHost to your existing communication platforms (OTAs, Whatsapp etc). PrimeHost will then have access to your online information & guest messages, which will utilise to train your assistant & learn from your previous conversations.
+Firstly, you need to connect PrimeHost to your existing communication platforms (Airbnb, Booking etc). PrimeHost will then have access to your online information & guest messages, which will utilise to train your assistant & learn from your previous conversations.
 
 **Suggested replies:**
 
 Whenever you get a guest message, PrimeHost will create an AI generated reply for you. We will do all the hard job for you, instead of writing from scratch. You can edit & approve the message, which will instantly reach your guest. Saves you **TONS** of valuable time!
 
-<img src="/docs/media/Screenshot 2024-05-22 at 10.25.40 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+![](/docs/media/Screenshot 2024-06-18 at 7.23.20 PM-1.png)
 
 **Instant communication:**
 
