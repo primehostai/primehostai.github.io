@@ -24,7 +24,7 @@ Your **All-in-One** AI Assistant, trained on the property to help you serve gues
 4.  Reports back to you with real time data insights, the most valuable source available.
     
 
-![](/docs/media/Screenshot 2024-06-29 at 5.29.42 PM.png)
+<img src="/docs/media/Screenshot 2024-06-29 at 5.29.42 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 # How it works:
 
@@ -32,9 +32,10 @@ Firstly, you need to connect PrimeHost to your existing communication platforms 
 
 **Suggested replies:**
 
-Whenever you get a guest message, PrimeHost will create an AI generated reply for you. We will do all the hard job for you, instead of writing from scratch. You can edit & approve the message, which will instantly reach your guest. Saves you **TONS** of valuable time!
+Whenever you get a guest message, PrimeHost will create an AI generated reply for you. We will do all the hard job, instead of writing from scratch. You can edit & approve the message, which will instantly reach to your guest. Saves you **TONS** of valuable time!
 
-![](/docs/media/Screenshot 2024-06-18 at 7.23.20 PM-1.png)
+<img src="/docs/media/Screenshot 2024-06-18 at 7.23.20 PM-1.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
 
 **Instant communication:**
 
