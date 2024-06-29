@@ -3,7 +3,7 @@ title: "Airbnb "
 description: "Add Niovi AI to your Airbnb Account "
 nav_order: 1
 ---
-## **Connect Airbnb with PrimeHost, add Niovi AI & reply faster than ever!**
+## **Connect Airbnb with PrimeHost & reply faster than ever!**
 
 **STEP 1: Select the listing you wish to connect & Invite a Co-Host**
 
