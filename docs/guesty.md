@@ -2,7 +2,7 @@
 title: "Guesty "
 description: Connect your Guesty account
 ---
-# Guesty <> PrimeHost
+# **Guesty <> PrimeHost**
 
 Guesty’s advanced technology optimizes, automates, and streamlines every aspect of managing a hospitality business from one listing to thousands, all from one platform.
 
