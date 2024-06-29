@@ -8,11 +8,11 @@ When it comes to guest communication, it's important to be able to keep everythi
 
 Slack App is a great tool, free & easy to use! You can keep all your guest communication there, see PrimeHost's suggested replies & use it to reach easily to all your guests, no matter which channel they used to reach you.
 
-**STEP 1: Click “Integrations” on the Dashboard sidebar**
+**Click “Integrations” on the Dashboard sidebar**
 
 <img src="/docs/media/Screenshot 2024-05-20 at 6.25.56 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
-**STEP 2: Click “Add to Slack” button**
+**Click “Add to Slack” button**
 
 <img src="/docs/media/Screenshot 2024-05-20 at 6.47.09 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
@@ -20,7 +20,7 @@ Slack App is a great tool, free & easy to use! You can keep all your guest commu
 
 <img src="/docs/media/Screenshot 2024-05-20 at 6.29.50 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
-**STEP 3: Click on PrimeHost and enable PrimeHost bot to the channel.**
+**Click on PrimeHost and enable PrimeHost bot to the channel.**
 
 <img src="/docs/media/Screenshot 2024-05-20 at 6.35.04 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
