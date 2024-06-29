@@ -1,7 +1,6 @@
 ---
-title: Get Suggested Replies
+title: Add Slack
 description: Your guest communication in one place!
-order: 2
 ---
 ## **Connect Slack with PrimeHost & get suggested replies!**
 
