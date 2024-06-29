@@ -9,7 +9,7 @@ title: Chrome Extension
 
 **Click “Chrome Extension” button:**
 
-<img src="/docs/media/Chrome%20click.pn" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+<img src="/docs/media/Chrome%20click.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 **From the Chrome Marketplace, add PrimeHost Extension:**
 
