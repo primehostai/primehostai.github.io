@@ -2,7 +2,7 @@
 title: Hostfully
 description: Connect your Hostfully account
 ---
-# [**Hostfully**](http://Booking.com) **<> PrimeHost**
+# **Hostfully** **<> PrimeHost**
 
 **STEP 1: Go to** [**https://primehost.ai**](https://primehost.ai) **and click Dashboard**
 
