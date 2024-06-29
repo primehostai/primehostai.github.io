@@ -28,7 +28,15 @@ Your **All-in-One** AI Assistant, trained on the property to help you serve gues
 
 # How it works:
 
-Firstly, you need to connect PrimeHost to your existing communication platforms (Airbnb, Booking etc). PrimeHost will then have access to your online information & guest messages, which will utilise to train your assistant & learn from your previous conversations.
+Firstly, you need to connect PrimeHost to your existing communication platforms. PrimeHost will then have access to your online information & guest messages, which will utilise to train your assistant & learn from your previous conversations.
+
+PMS Connection:
+
+If you use one of the integrated PMS, you can instantly import your properties & train your Assistant. That's certainly the easiest & most efficient way to start, as you can have everything ready within seconds!
+
+Booking Channels:
+
+If you don't use a PMS yet, you can still add PrimeHost directly into your Airbnb or [Booking.com](http://Booking.com) accounts. This would require a few manual steps, so we strongly suggest to book a demo.
 
 **Suggested replies:**
 
