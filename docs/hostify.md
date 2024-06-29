@@ -2,7 +2,7 @@
 title: Hostify
 description: Connect your Hostify account
 ---
-# [**Hostify**](http://Booking.com) **<> PrimeHost**
+# **Hostify** **<> PrimeHost**
 
 **STEP 1: Go to** [**https://primehost.ai**](https://primehost.ai) **and click Dashboard**
 
