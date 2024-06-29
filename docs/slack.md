@@ -2,7 +2,11 @@
 title: Add Slack
 description: Your guest communication in one place!
 ---
-## **Connect Slack with PrimeHost & get suggested replies!**
+# **Slack App** for suggested replies
+
+When it comes to guest communication, it's important to be able to keep everything in one place.
+
+Slack App is a great tool, free & easy to use! You can keep all your guest communication there, see PrimeHost's suggested replies & use it to reach easily to all your guests, no matter which channel they used to reach you!
 
 **STEP 1: Click “Integrations” on the Dashboard sidebar**
 
