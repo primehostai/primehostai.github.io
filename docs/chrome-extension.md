@@ -25,7 +25,7 @@ How does that work:
 
 <img src="/docs/media/Screenshot 2024-06-29 at 5.06.27 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
-**You will be asked to insert a token. From your PrimeHost account, copy the Token & paste it in Chrome:**\*\*
+**You will be asked to insert a token. From your PrimeHost account, copy the Token & paste it in Chrome:**
 
 <img src="/docs/media/Screenshot 2024-06-29 at 5.08.30 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"><img src="/docs/media/Screenshot 2024-06-29 at 5.10.32 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"> <img src="/docs/media/Screenshot 2024-06-29 at 5.12.40 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
