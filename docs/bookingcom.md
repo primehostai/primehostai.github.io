@@ -2,7 +2,7 @@
 title: Booking.com
 description: Connect PrimeHost to Booking.com
 ---
-# [**Booking.com**](http://Booking.com) **<> PrimeHost**
+# **Booking.com** **<> PrimeHost**
 
 If you don't use a PMS or simply manage a few properties, you can connect PrimeHost directly to your Booking.com account. You Assistant will be trained on Booking.com public information & incrementally from guest communication.
 
