@@ -3,7 +3,9 @@ title: "Airbnb "
 description: "Add Niovi AI to your Airbnb Account "
 nav_order: 1
 ---
-## **Connect Airbnb with PrimeHost & reply faster than ever!**
+# **Connect Airbnb with PrimeHost & reply faster than ever!**
+
+If you don't use a PMS or simply manage a few properties, you can connect PrimeHost directly to your Airbnb account. You Assistant will be trained on Airbnb's public information & incrementally from guest communication.
 
 **STEP 1: Select the listing you wish to connect & Invite a Co-Host**
 
