@@ -1,5 +1,5 @@
 ---
-title: Chrome Extension
+title: Desktop - Chrome Extension
 nav_order: 4
 ---
 # **Chrome Extension** for Guesty & Hostify users
