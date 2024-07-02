@@ -6,9 +6,11 @@ nav_order: 4
 
 PrimeHost's Chrome Extension is the most convenient way to see & use PrimeHost's suggested replies. If you have imported your properties through **Guesty** or **Hostify**, you can set up the extension & keep all communication in your PMS.
 
-How does that work:
+Benefits:
 
-<p style="text-align: start">✔️ Replies for your quest’s questions will be auto generated &amp; shown directly into the unified inbox!</p><p style="text-align: start">✔️ No need to write from scratch, or even spend more than a second to reply.</p><p style="text-align: start">✔️ Training is done 100% automatically!</p>
+<p style="text-align: start">✔️ Replies for your quest’s questions will be auto generated &amp; shown directly into your PMS.</p><p style="text-align: start">✔️ No need to write from scratch, or even spend more than a second to reply.</p><p style="text-align: start">✔️ Training is done 100% automatically!</p>
+
+### **How to Add the Chrome Extension to your Desktop**
 
 **Click “Integrations” on the Dashboard sidebar:**
 
