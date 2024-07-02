@@ -1,6 +1,7 @@
 ---
 title: "Guesty "
 description: Connect your Guesty account
+nav_order: 1
 ---
 # **Guesty <> PrimeHost**
 
@@ -44,4 +45,4 @@ PrimeHost’s All-in-One AI Assistant is now available through Guesty's unified 
 
 <img src="/docs/media/Guesty%20API%20key.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
-**Your Listings have been imported, Happy chats! :)**
+<p style="text-align: right"><strong>Your Listings have been imported, Happy chats! :)</strong></p>
