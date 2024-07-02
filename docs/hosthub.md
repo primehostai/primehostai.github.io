@@ -1,6 +1,7 @@
 ---
 title: Hosthub
 description: Connect your Hosthub account
+nav_order: 3
 ---
 # **Hosthub <> PrimeHost**
 
