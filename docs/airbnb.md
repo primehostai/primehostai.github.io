@@ -1,7 +1,6 @@
 ---
 title: "Airbnb "
 description: "Connect PrimeHost to your Airbnb Account "
-nav_order: 1
 ---
 # **Airbnb <> PrimeHost**
 
