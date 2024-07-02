@@ -1,6 +1,7 @@
 ---
 title: Add Slack
 description: Your guest communication in one place!
+nav_order: 5
 ---
 # **Slack App** for suggested replies
 
