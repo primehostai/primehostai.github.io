@@ -1,5 +1,5 @@
 ---
-title: Add Slack
+title: Mobile - Add Slack
 description: Your guest communication in one place!
 nav_order: 5
 ---
@@ -8,6 +8,14 @@ nav_order: 5
 When it comes to guest communication, it's important to be able to keep everything in one place.
 
 Slack App is a great tool, free & easy to use! You can keep all your guest communication there, see PrimeHost's suggested replies & use it to reach easily to all your guests, no matter which channel they used to reach you.
+
+Benefits:
+
+✔️ Replies for your quest’s questions will be auto generated & shown directly into Slack.
+
+<p style="text-align: start">✔️ You get push notifications, each time you get a new message from any booking channel.</p><p style="text-align: start">✔️ Emergency alerts, Booking Actions &amp; casual replies are categorised, so you can prioritise your time.</p>
+
+### **How to Connect PrimeHost with Slack App**
 
 **Click “Integrations” on the Dashboard sidebar**
 
