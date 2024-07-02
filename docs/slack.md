@@ -1,5 +1,5 @@
 ---
-title: Mobile - Add Slack
+title: Mobile - Slack App
 description: Your guest communication in one place!
 nav_order: 5
 ---
