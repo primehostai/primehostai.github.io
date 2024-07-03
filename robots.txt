@@ -1,0 +1,4 @@
+# Block all web crawlers from accessing the /dashboard/ and /assistant/ directories
+User-agent: *
+Disallow: /dashboard/
+Disallow: /assistant/
