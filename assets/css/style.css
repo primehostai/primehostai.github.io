@@ -502,13 +502,14 @@ section {
   margin: 0;
   font-size: 44px;
   font-weight: 800;
-  color: #522685;
+  color: #230A4A;
 }
 
 .hero h2 {
-  color: #200B47;
+  /* color: #200B47; */
+  color: #522685;
   margin: 15px 0 0 0;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .hero .btn-get-started {
@@ -627,6 +628,18 @@ section {
 .clients img:hover {
   filter: none;
   transform: scale(1.1);
+}
+
+.clients .btn-get-started {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 0;
+  padding: 25px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #200B47;
+  box-shadow: 0px 5px 30px rgba(78, 30, 123, 0.4);
 }
 
 @media (max-width: 768px) {
@@ -1242,7 +1255,7 @@ section {
   padding: 40px 20px;
   background: #fff;
   text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 30px #230A4A;
   border-radius: 4px;
   position: relative;
   overflow: hidden;
@@ -1256,7 +1269,7 @@ section {
 
 .pricing h3 {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: 15px;
 }
 
@@ -1305,7 +1318,7 @@ section {
 .pricing .btn-buy {
   display: inline-block;
   padding: 8px 40px 10px 40px;
-  border-radius: 50px;
+  border-radius: 5px;
   color: #200B47;
   transition: none;
   font-size: 16px;
