@@ -26,8 +26,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
   <!-- =======================================================
   * Template Name: FlexStart
   * Updated: Sep 18 2023 with Bootstrap v5.3.2
@@ -622,6 +620,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script>
     // Activate Carousel
     $("#myCarousel").carousel;
@@ -641,57 +640,31 @@
     const outputDiv = document.getElementById('output');
     const output2Div = document.getElementById('output2');
 
-    slider.addEventListener('input', () => {
-      const inputValue = parseInt(slider.value);
-      sliderValue.textContent = inputValue;
-      let price = 8;
-      if (inputValue>=10 && inputValue<20){
-          price = 7;
-      }else if (inputValue>=20 && inputValue<30){
-          price = 6;
-      }else if (inputValue>=30 && inputValue<50){
-          price = 5;
-      }else if (inputValue>=50 && inputValue<100){
-          price = 4.5;
-      }else if (inputValue>=100){
-          price = -1;
-      }
-
-      if (price==-1){
-        outputDiv.textContent = `Contact us...`;
-        output2Div.textContent = ``;
-      }else{
-        const result = price*inputValue;
-        outputDiv.textContent = `${price} € per rental, per month`;
-        output2Div.textContent = `${result} € total`;
-      }
-    });
-
-
-  //   document.getElementById('contactForm').addEventListener('submit', function(event) {
-  //       event.preventDefault(); // Prevent the form from submitting the default way
-  //
-  //       var formData = {
-  //         name: document.getElementById('name').value,
-  //         email: document.getElementById('email').value,
-  //         message: document.getElementById('message').value
-  //       };
-  //
-  //       fetch('https://your-app-name.herokuapp.com/send-email', { // Replace with your API endpoint
-  //         method: 'POST',
-  //         headers: {
-  //           'Content-Type': 'application/json'
-  //         },
-  //         body: JSON.stringify(formData)
-  //       })
-  //       .then(response => response.json())
-  //       .then(data => {
-  //         document.getElementById('responseMessage').innerText = data.message;
-  //       })
-  //       .catch(error => {
-  //         document.getElementById('responseMessage').innerText = 'An error occurred. Please try again.';
-  //       });
-  // });
+    // slider.addEventListener('input', () => {
+    //   const inputValue = parseInt(slider.value);
+    //   sliderValue.textContent = inputValue;
+    //   let price = 8;
+    //   if (inputValue>=10 && inputValue<20){
+    //       price = 7;
+    //   }else if (inputValue>=20 && inputValue<30){
+    //       price = 6;
+    //   }else if (inputValue>=30 && inputValue<50){
+    //       price = 5;
+    //   }else if (inputValue>=50 && inputValue<100){
+    //       price = 4.5;
+    //   }else if (inputValue>=100){
+    //       price = -1;
+    //   }
+    //
+    //   if (price==-1){
+    //     outputDiv.textContent = `Contact us...`;
+    //     output2Div.textContent = ``;
+    //   }else{
+    //     const result = price*inputValue;
+    //     outputDiv.textContent = `${price} € per rental, per month`;
+    //     output2Div.textContent = `${result} € total`;
+    //   }
+    // });
 
   document.getElementById("contact-form").addEventListener("submit", async function(event) {
       event.preventDefault();
@@ -700,18 +673,18 @@
           name: document.getElementById('name').value,
           email: document.getElementById('email').value,
           subject: document.getElementById('subject').value,
-          text: document.getElementById('text').value,
-          'g-recaptcha-response': grecaptcha.getResponse() // Get the reCAPTCHA response token
+          text: document.getElementById('message').value,
+          'g_recaptcha_response': grecaptcha.getResponse() // Get the reCAPTCHA response token
       };
 
-      if (!formData['g-recaptcha-response']) {
+      if (!formData['g_recaptcha_response']) {
           document.getElementById("response-message").innerHTML = "Please complete the reCAPTCHA.";
           document.getElementById("response-message").style.color = "red";
           return;
       }
 
       try {
-          const response = await fetch('https://api.primehost.ai/user/send_contact_form_email', {
+          const response = await fetch('http://localhost:8085/user/send_contact_form_email', {
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json',
