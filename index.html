@@ -71,8 +71,8 @@
         <div class="col-lg-12 d-flex flex-column justify-content-center">
           <div class="header-container">
             <h1 class="col-md-2"></h1>
-            <h1 class="sentence col-md-6" data-aos="fade-up">Guest communication made</h1>
-            <h1 id="animated-word" data-aos="fade-up" class="word col-md-4 word visible" style="color: #FFC000; margin-left:7px"></h1>
+            <h1 class="sentence col-md-6" data-aos="fade-up" data-aos-delay="400">Guest communication made</h1>
+            <h1 id="animated-word" class="word col-md-4 word visible" style="color: #FFC000; margin-left:7px"></h1>
           </div>
           <h2 data-aos="fade-up" data-aos-delay="400"><b>for Hotels and Property Managers</b></h2>
           <div data-aos="fade-up" data-aos-delay="600" style="margin-left: auto; margin-right: auto">
@@ -136,7 +136,7 @@
         <header class="section-header">
           <!-- <h2>Features</h2> -->
           <!-- <p>Dashboard</p> -->
-          <p><b style="color:#230A4A">Take advantage of AI and get Quality Replies</b></p>
+          <p style="color:#230A4A">Take advantage of AI and get Quality Replies</p>
           <p style="font-size: 20px; color:#4E1E7B">Over 75% of AI generated replies are used without a single edit</p>
         </header>
 
@@ -174,7 +174,7 @@
 
         <header class="section-header">
           <!-- <h2>Features</h2> -->
-          <p><b style="color:#230A4A">Go Live in just a few minutes</b></p>
+          <p style="color:#230A4A">Go Live in just a few minutes</p>
           <p style="font-size: 20px; color:#4E1E7B">Instant Setup</p>
         </header>
 
@@ -226,7 +226,7 @@
 
         <header class="section-header">
           <!-- <h2>Features</h2> -->
-          <p><b style="color: #230A4A">Elevate the experience. Gain valuable insights. Host like a Pro</b></p>
+          <p style="color: #230A4A">Elevate the experience. Gain valuable insights. Host like a Pro</p>
           <p style="font-size: 20px; color: #4E1E7B">Property Management Systems</p>
         </header>
 
@@ -332,7 +332,7 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <p><b style="color: #230A4A">Choose the Pricing Plan that fits you</b></p>
+          <p style="color: #230A4A">Choose the Pricing Plan that fits you</p>
           <p style="font-size: 20px; color: #4E1E7B">Suitable for all sizes</p>
         </header>
 
@@ -422,7 +422,7 @@
         <header class="section-header">
           <!-- <h2>Features</h2> -->
 
-          <p><b style="color:#230A4A">Trusted by leading industry operators</b></p>
+          <p style="color:#230A4A">Trusted by leading industry operators</p>
           <p style="font-size: 20px; color:#4E1E7B">Over 2500 active properties in 10+ countries</p>
         </header>
 
@@ -703,7 +703,7 @@
 
   document.addEventListener("DOMContentLoaded", function() {
     const words = ["Easy", "Smart", "Simple", "Effortless"];
-    let index = 0;
+    let index = 0; // Start with the second word in the array
 
     function changeWord() {
         const wordElement = document.getElementById("animated-word");
@@ -711,12 +711,10 @@
         index = (index + 1) % words.length;
     }
 
-    // Set the first word immediately
-    // changeWord();
-
-    // Start the interval to change the word every 3 seconds
-    setInterval(changeWord, 2000);
-});
+        // changeWord();
+        // Then change the word every 3 seconds
+        setInterval(changeWord, 1500);
+  });
 
   </script>
 </body>
