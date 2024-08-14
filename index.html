@@ -67,11 +67,15 @@
   <section id="hero" class="hero d-flex align-items-center">
     <div class="container">
       <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up" style="font-size:31px">Make your guest interactions effortless</h1>
+        <!-- <div class="col-lg-1"></div> -->
+        <div class="col-lg-12 d-flex flex-column justify-content-center">
+          <div class="header-container">
+            <h1 class="col-md-2"></h1>
+            <h1 class="sentence col-md-7" data-aos="fade-up">Guest communication made</h1>
+            <h1 class="word col-md-4"><span id="animated-word" class="word visible" style="color: #FFC000; margin-left:7px">Easy</span></h1>
+          </div>
           <h2 data-aos="fade-up" data-aos-delay="400"><b>for Hotels and Property Managers</b></h2>
-          <div data-aos="fade-up" data-aos-delay="600">
+          <div data-aos="fade-up" data-aos-delay="600" style="margin-left: auto; margin-right: auto">
             <div class="text-center text-lg-start">
               <a href="https://dashboard.primehost.ai/" target="_blank" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Get Started</span>
@@ -85,13 +89,12 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-5 hero-img" data-aos="zoom-out" data-aos-delay="200" style="margin-top:15px; margin-bottom: auto;">
-          <!-- <img src="assets/img/playground.png" class="img-fluid" style="width:70%; border-top-left-radius: 40px; border-top-right-radius: 40px;" alt=""> -->
+        <div class="col-lg-1"></div>
+        <!-- <div class="col-lg-5 hero-img" data-aos="zoom-out" data-aos-delay="200" style="margin-top:15px; margin-bottom: auto;">
           <video width="65%" autoplay loop muted defaultMuted playsinline>
             <source src="assets/mobile.mp4" type="video/mp4"/>
           </video>
-          <!-- <img src="assets/img/mobile_primehost.gif" class="img-fluid" style="width:70%; border-top-left-radius: 40px; border-top-right-radius: 40px;" alt=""> -->
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -133,7 +136,7 @@
         <header class="section-header">
           <!-- <h2>Features</h2> -->
           <!-- <p>Dashboard</p> -->
-          <p><b style="color:#230A4A">Get Quality Replies with the Best AI Platform</b></p>
+          <p><b style="color:#230A4A">Take advantage of AI and get Quality Replies</b></p>
           <p style="font-size: 20px; color:#4E1E7B">Over 75% of AI generated replies are used without a single edit</p>
         </header>
 
@@ -252,8 +255,8 @@
 
         <header class="section-header">
           <!-- <h2>Features</h2> -->
-          <p><b style="color: #230A4A">Seamlessly Integrate for Effortless Management</b></p>
-          <p style="font-size: 20px; color: #4E1E7B">PMS connections & OTA set-up</p>
+          <p><b style="color: #230A4A">Elevate the experience. Gain valuable insights. Host like a Pro</b></p>
+          <p style="font-size: 20px; color: #4E1E7B">Property Management Systems</p>
         </header>
 
         <div class="row gy-4" >
@@ -318,10 +321,9 @@
 
         </div>
 
-        <div class="row gy-4" style="margin-top:20px">
+        <!-- <div class="row gy-4" style="margin-top:20px">
 
           <header class="section-header">
-            <!-- <h2>Features</h2> -->
             <p>Don't have a PMS? Connect directly!</p>
           </header>
 
@@ -331,11 +333,7 @@
           <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <a href="https://primehost.ai/docs/airbnb/" target="_blank">
               <div class="service-box purple" style="margin: auto;">
-                <!-- <i class="bi bi-airplane icon"></i> -->
                 <img src="assets/img/airbnb.png" class="airbnb" style="width:40%;">
-                <!-- <h3>Airbnb</h3> -->
-                <!-- <p>Provide useful instructions & directions, offer suggestions & cross-sell your products.</p> -->
-                <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
               </div>
             </a>
           </div>
@@ -343,11 +341,7 @@
           <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <a href="https://primehost.ai/docs/booking/" target="_blank">
               <div class="service-box high purple" style="margin: auto;">
-                <!-- <i class="bi bi-airplane icon"></i> -->
                 <img src="assets/img/booking_logo.png" class="boooking" style="width:70%;">
-                <!-- <h3>Airbnb</h3> -->
-                <!-- <p>Provide useful instructions & directions, offer suggestions & cross-sell your products.</p> -->
-                <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
               </div>
             </a>
           </div>
@@ -355,7 +349,7 @@
           <div class="col-lg-2 col-md-2">
           </div>
 
-        </div>
+        </div> -->
 
       </div>
 
@@ -709,6 +703,17 @@
       }
   });
 
+  const words = ["Easy", "Smart", "Simple", "Effortless"];
+
+    let index = 1;
+
+    function changeWord() {
+        const wordElement = document.getElementById("animated-word");
+        wordElement.textContent = words[index];
+        index = (index + 1) % words.length;
+    }
+
+    setInterval(changeWord, 3000);
 
   </script>
 </body>
