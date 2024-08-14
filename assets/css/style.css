@@ -96,10 +96,6 @@ section {
   text-align: right;
 }
 
-.word{
-  text-align: left;
-}
-
 @media (max-width: 768px) {
   .sentence{
     text-align: center;
@@ -128,9 +124,12 @@ section {
     margin-left: auto;
     margin-right: auto;
     opacity: 0;
-    animation: wordAnimation 3s ease-in-out infinite;
+    animation: wordAnimation 2s ease-in-out infinite;
     margin-left: 5px;
+    color: #FFC000;
+    text-align: left;
 }
+
 @keyframes wordAnimation {
     0% {
         transform: translateY(40px);
