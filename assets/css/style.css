@@ -124,7 +124,7 @@ section {
     margin-left: auto;
     margin-right: auto;
     opacity: 0;
-    animation: wordAnimation 1.5s ease-in-out infinite;
+    animation: wordAnimation 2s ease-in-out infinite;
     margin-left: 5px;
     color: #FFC000;
     text-align: left;
