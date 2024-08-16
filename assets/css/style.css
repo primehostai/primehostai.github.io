@@ -584,6 +584,13 @@ section {
   font-size: 22px;
 }
 
+.hero .header-container span {
+  /* margin: 0; */
+  font-size: 44px;
+  font-weight: 700;
+  color: #230A4A;
+}
+
 .hero .btn-get-started {
   margin-top: 30px;
   line-height: 0;
