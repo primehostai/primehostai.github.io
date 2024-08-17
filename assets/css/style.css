@@ -96,13 +96,25 @@ section {
   text-align: right;
 }
 
-@media (max-width: 768px) {
+.word {
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    animation: wordAnimation 2s ease-in-out infinite;
+    margin-left: 5px;
+    color: #FFC000;
+    text-align: left;
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 1000px) {
   .sentence{
     text-align: center;
   }
 
   .word{
     text-align: center;
+    margin: auto;
   }
 }
 
@@ -118,16 +130,6 @@ section {
     .header-container h1:last-child {
         margin-right: 0; /* Remove margin on the last element */
     }
-}
-
-.word {
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0;
-    animation: wordAnimation 2s ease-in-out infinite;
-    margin-left: 5px;
-    color: #FFC000;
-    text-align: left;
 }
 
 @keyframes wordAnimation {
