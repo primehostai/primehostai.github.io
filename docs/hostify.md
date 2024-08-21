@@ -3,7 +3,7 @@ title: Hostify
 description: Connect your Hostify account
 nav_order: 2
 ---
-# **Hostify** **<> PrimeHost**
+# **Hostify**
 
 **Go to** [**https://primehost.ai**](https://primehost.ai) **and click Dashboard**
 
