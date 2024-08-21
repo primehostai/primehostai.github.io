@@ -11,24 +11,32 @@ Guest communication is **key** in a successful Hospitality business. If you thin
 
 **What's the catch?** Great communication is **extremely time consuming!**
 
-You need to be available 24/7 for your guest's needs, always respond with clear & effective messages, keep a professional tone & of course, instantly handle emergencies. As you grow your successful business & serve lot's of customers, it's inevitable to lose in quality. **What if there was another way?**
+You need to be available 24/7 for your guest's needs, always respond with clear & effective messages, keep a professional tone & of course, instantly handle emergencies. As you grow your successful business & serve lot's of customers, it's inevitable to lose in quality.
 
-Your **All-in-One** AI Assistant, trained on the property to help you serve guests 24/7. In one word, **PrimeHost!**
+**What if there is another way?**
 
-1.  Learns from the previous conversations of your properties, so it's super easy to set up.
+Integrated with OTAs (Airbnb, [Booking.com](http://Booking.com)) & popular Property Management Systems (Hosthub, Guesty, Hostify, Hostfully), **PrimeHost** empowers you to handle an increasing volume of guest inquiries effortlessly as your business grows.
+
+**Benefits for the property:**
+
+*   **Save time:** Automate responses and free up your schedule
     
-2.  Helps with daily questions & inquiries.
+*   **Instant responses:** Provide immediate answers to guest inquiries
     
-3.  Sends you emergency alerts & notifications so you can prioritise your time.
+*   **Editable responses:** Customize AI-generated replies to suit specific needs
     
-4.  Reports back to you with real time data insights, the most valuable source available.
+*   **Reduce manual errors:** Ensure accurate information is shared every time
+    
+*   **Improve guest experience:** Deliver prompt, consistent, and personalized communication
+    
+*   **Boost SEO:** Reduce response time to enhance your online presence and rankings
     
 
 <img src="/docs/media/Screenshot 2024-06-29 at 5.29.42 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 # How it works:
 
-Firstly, you need to connect PrimeHost to your existing communication platforms. PrimeHost will then have access to your online information & guest messages, which will utilise to train your assistant & learn from your previous conversations.
+Firstly, you need to connect PrimeHost to your existing communication platforms. PrimeHost will then have access to your online information & guest messages, which will utilise to train your assistant & streamline your operations.
 
 **PMS Connection:**
 
