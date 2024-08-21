@@ -2,7 +2,7 @@
 title: Hostfully
 description: Connect your Hostfully account
 ---
-# **Hostfully** **<> PrimeHost**
+# **Hostfully**
 
 **Go to** [**https://primehost.ai**](https://primehost.ai) **and click Dashboard**
 
