@@ -2,7 +2,7 @@
 title: "Airbnb "
 description: "Connect PrimeHost to your Airbnb Account "
 ---
-# **Airbnb <> PrimeHost**
+# **Airbnb custom connection**
 
 If you don't use a PMS or simply manage a few properties, you can connect PrimeHost directly to your Airbnb account. You Assistant will be trained on Airbnb's public information & incrementally from guest communication. All AI generated replies will be sent to your Airbnb guests from your new co-host, "Niovi".
 
