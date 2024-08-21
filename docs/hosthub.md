@@ -3,7 +3,7 @@ title: Hosthub
 description: Connect your Hosthub account
 nav_order: 3
 ---
-# **Hosthub <> PrimeHost**
+# **Hosthub**
 
 Increase your revenue, improve your operations and save time and money with the best Channel Manager & PMS in the industry. Hosthub has everything you need to manage your properties effortlessly and reliably.
 
