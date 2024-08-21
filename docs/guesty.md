@@ -3,7 +3,7 @@ title: "Guesty "
 description: Connect your Guesty account
 nav_order: 1
 ---
-# **Guesty <> PrimeHost**
+# **Guesty**
 
 Guesty’s advanced technology optimizes, automates, and streamlines every aspect of managing a hospitality business from one listing to thousands, all from one platform.
 
