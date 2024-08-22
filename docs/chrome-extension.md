@@ -1,6 +1,5 @@
 ---
 title: PrimeHost Extension
-nav_order: 1
 ---
 # **PrimeHost Extension**
 
