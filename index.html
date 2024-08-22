@@ -45,7 +45,128 @@
   ======================================================== -->
 </head>
 <!-- Google tag (gtag.js) -->
+<style>
+  .airbnb-img {
+    max-width: 50%; /* Adjust this percentage to control the size */
+  }
 
+  .features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+  @media (max-width: 768px) {
+    .features-grid {
+      display: none;
+    }
+  }
+  /* Styling for the disabled feature */
+  .d-flex .flex-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .equal-img {
+    width: 100%;
+    max-width: 150px; /* Set a consistent max-width for all images */
+    height: auto;
+  }
+
+  .service-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid transparent; /* Optional: for visual debugging */
+  }
+  .disabled-feature .feature-icon {
+    color: #a0a0a0;
+  }
+
+
+
+  .feature-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%; /* Ensure the items take full width of their column */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+  }
+
+  .disabled-feature {
+    opacity: 0.5; /* Slightly faded to indicate it's disabled */
+  }
+
+  .feature-icon {
+    color: green;
+    font-size: 1.5em;
+    margin-right: 10px;
+  }
+
+  .feature-text {
+    font-size: 1em;
+    color: #333;
+  }
+
+  @media (max-width: 768px) {
+    .features-grid {
+      grid-template-columns: 1fr; /* Single column on small screens */
+    }
+  }
+  @media (max-width: 992px) {
+    #services .hero-img {
+      margin-top: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #services .row {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .service-box img {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  .service-img {
+    max-width: 80%; /* Adjust the width percentage as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  @media (max-width: 768px) {
+    .service-box {
+      max-width: 250px; /* Increase the max width on mobile */
+      padding: 15px; /* Increase padding if necessary */
+    }
+
+    .service-img {
+      max-width: 200px; /* Increase the image size on mobile */
+    }
+  }
+  .btn-get-started {
+    display: inline-block;
+    background: #4E1E7B;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+  }
+
+  .btn-get-started:hover {
+    background: #230A4A;
+    color: #fff;
+  }
+</style>
 
 <body>
 
@@ -67,7 +188,7 @@
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="nav-link" href="/docs" target="_blank">Documentation</a></li>
           <li><a class="btn-login" href="https://dashboard.primehost.ai/">Login</a></li>
-          <li><a class="getstarted scrollto" href="https://dashboard.primehost.ai?form=signup">Free trial</a></li>
+          <li><a class="getstarted scrollto" href="https://dashboard.primehost.ai?form=signup">Sign Up</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -148,7 +269,7 @@
         <header class="section-header">
           <!-- <h2>Features</h2> -->
           <!-- <p>Dashboard</p> -->
-          <p style="color:#230A4A">Take advantage of AI and get Quality Replies</p>
+          <p style="color:#230A4A">Take advantage of AI</p>
           <p style="font-size: 20px; color:#4E1E7B">Over 75% of AI generated replies are used without a single edit</p>
         </header>
 
@@ -231,116 +352,188 @@
 
     </section><!-- End How it works Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-
+    <!-- =======  Free Services Section ======= -->
+    <section id="free services" class="services">
       <div class="container" data-aos="fade-up">
+        <div class="row gy-4">
+          <!-- Left Content Section -->
+          <div class="col-lg-6 col-md-12">
+            <header class="section-header">
+              <p style="color: #230A4A">Starter Plan</p>
+              <p style="font-size: 20px; color: #4E1E7B">Connect Instantly. Connect for free</p>
+            </header>
 
-        <header class="section-header">
-          <!-- <h2>Features</h2> -->
-          <p style="color: #230A4A">Elevate the experience. Gain valuable insights. Host like a Pro.</p>
-          <p style="font-size: 20px; color: #4E1E7B">Property Management Systems</p>
-        </header>
+            <div class="row gy-4 d-flex align-items-center justify-content-center">
+              <div class="d-flex justify-content-between align-items-center">
 
-        <div class="row gy-4" >
+              <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <a href="https://primehost.ai/docs/primehostfree/" target="_blank">
+                <div class="service-box purple" style="margin: auto; text-align: center;">
+                  <img src="assets/img/airbnb.png" alt="airbnb_logo" class="service-img equal-img" style="width: 50%;">
+                </div>
+              </a>
+            </div>
 
-          <div class="col-lg-3 col-md-3" data-aos="fade-up" data-aos-delay="300">
-            <a href="https://primehost.ai/docs/hosthub/" target="_blank">
-              <div class="service-box purple" style="margin: auto;">
-                <!-- <i class="bi bi-house icon"></i> -->
-                <img src="assets/img/hosthub-logo.webp" alt="hosthub_logo" style="width: 70%;">
-                <!-- <h3>Hostfully</h3> -->
-                <!-- <p>Respond instantly to any questions regarding your amenities, facilities & policies.</p> -->
-                <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+            <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <a href="https://primehost.ai/docs/primehostfree/" target="_blank">
+                <div class="service-box purple" style="margin: auto; text-align: center;">
+                  <img src="assets/img/booking_logo.png" alt="booking_logo" class="service-img equal-img">
+                </div>
+              </a>
+            </div>
               </div>
-            </a>
           </div>
 
-          <div class="col-lg-3 col-md-3" data-aos="fade-up" data-aos-delay="300">
-            <a href="https://primehost.ai/docs/hostfully/" target="_blank">
-              <div class="service-box purple" style="margin: auto;" >
-                <!-- <i class="bi bi-house icon"></i> -->
-                <img src="assets/img/hostfully.svg" alt="hostfully_logo" style="width: 90%; margin-top: 30px;">
-                <!-- <h3>Hostfully</h3> -->
-                <!-- <p>Respond instantly to any questions regarding your amenities, facilities & policies.</p> -->
-                <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+            <div class="row gy-4" style="margin-top: 20px;">
+              <div class="col-lg-12 col-md-12">
+                <div class="features-grid">
+                  <div class="feature-item">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Chrome Extension</span>
+                  </div>
+                  <div class="feature-item">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Custom AI</span>
+                  </div>
+                  <div class="feature-item">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Sharable link</span>
+                  </div>
+                  <div class="feature-item disabled-feature">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Self learning AI</span>
+                  </div>
+                  <div class="feature-item disabled-feature">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Mobile friendly</span>
+                  </div>
+                  <div class="feature-item disabled-feature">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">PMS connection</span>
+                  </div>
+                  <div class="feature-item disabled-feature">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Advanced model</span>
+                  </div>
+                  <div class="feature-item disabled-feature">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Unified Inbox</span>
+                  </div>
+                  <div class="feature-item disabled-feature">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Train w/past conversations</span>
+                  </div>
+                </div>
               </div>
-            </a>
+            </div>
+
           </div>
 
-          <div class="col-lg-3 col-md-3" data-aos="fade-up" data-aos-delay="400">
-            <a href="https://primehost.ai/docs/hostify/" target="_blank">
-              <div class="service-box purple" style="margin:auto; padding: auto;">
-                <!-- <i class="bi bi-person-walking icon"></i> -->
-                <img src="assets/img/hostify.webp" alt="hostify_logo" style="width:100%; margin-top:30px; margin-bottom:20px">
-                <!-- <h3>Post Stay Support</h3>
-                <p>Handle post-stay questions & engage with your guests.</p> -->
-                <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-              </div>
-            </a>
+          <!-- Right Image Section -->
+          <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center">
+            <div class="hero-img" data-aos="zoom-out" data-aos-delay="200" style="background-color: #f0f0f0; padding: 20px; display: flex; justify-content: center; align-items: center; border: 2px solid #4E1E7B; border-radius: 20px;">
+              <video controls style="max-width: 80%; height: auto; border-radius: 15px;">
+                <source src="assets/free.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
-
-          <div class="col-lg-3 col-md-3" data-aos="fade-up" data-aos-delay="400">
-            <a href="https://primehost.ai/docs/guesty/" target="_blank">
-              <div class="service-box purple" style="margin:auto;">
-                <!-- <i class="bi bi-person-walking icon"></i> -->
-                <img src="assets/img/guesty-logo-new.svg" alt="guesty_logo" style="width:100%; margin-top:30px; margin-bottom:20px">
-                <!-- <h3>Post Stay Support</h3>
-                <p>Handle post-stay questions & engage with your guests.</p> -->
-                <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-              </div>
-            </a>
-          </div>
-
         </div>
-
-        <div class="row gy-4" style="margin-top:20px">
-
-          <header class="section-header">
-            <!-- <h2>Features</h2> -->
-            <p style="font-size:24px">Using another PMS?</p><br>
-            <a class="btn-get-started scrollto" href="#contact" style="margin-top: 10px">Contact us</a>
-          </header>
-
-        </div>
-
-        <!-- <div class="row gy-4" style="margin-top:20px">
-
-          <header class="section-header">
-            <p>Don't have a PMS? Connect directly!</p>
-          </header>
-
-          <div class="col-lg-2 col-md-2">
-          </div>
-
-          <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <a href="https://primehost.ai/docs/airbnb/" target="_blank">
-              <div class="service-box purple" style="margin: auto;">
-                <img src="assets/img/airbnb.png" alt="airbnb_logo" class="airbnb" style="width:40%;">
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <a href="https://primehost.ai/docs/booking/" target="_blank">
-              <div class="service-box high purple" style="margin: auto;">
-                <img src="assets/img/booking_logo.png" alt="booking_logo" class="boooking" style="width:70%;">
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-2 col-md-2">
-          </div>
-
-        </div> -->
-
       </div>
+    </section>
 
-    </section><!-- End Services Section -->
+    <!-- End Free Services Section -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4">
+          <!-- Left Content Section -->
+          <div class="col-lg-6 col-md-12">
+            <header class="section-header">
+              <p style="color: #230A4A">Pro Plan</p>
+              <p style="font-size: 20px; color: #4E1E7B">Elevate the experience. Host like a Pro.</p>
+            </header>
 
+            <div class="row gy-4">
+              <div class="col-12" data-aos="fade-up" data-aos-delay="300">
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://primehost.ai/docs/hostfully/" target="_blank" class="flex-item">
+                    <div class="service-box purple" style="margin: auto; text-align: center;">
+                      <img src="assets/img/hostfully.svg" alt="hostfully_logo" class="service-img equal-img">
+                    </div>
+                  </a>
+                  <a href="https://primehost.ai/docs/hostify/" target="_blank" class="flex-item">
+                    <div class="service-box purple" style="margin: auto; text-align: center;">
+                      <img src="assets/img/hostify.webp" alt="hostify_logo" class="service-img equal-img">
+                    </div>
+                  </a>
+                  <a href="https://primehost.ai/docs/guesty/" target="_blank" class="flex-item">
+                    <div class="service-box purple" style="margin: auto; text-align: center;">
+                      <img src="assets/img/guesty-logo-new.svg" alt="guesty_logo" class="service-img equal-img">
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4" style="margin-top: 20px;">
+              <div class="col-lg-12 col-md-12">
+                <div class="features-grid">
+                  <div class="feature-item">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Chrome Extension</span>
+                  </div>
+                  <div class="feature-item">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Custom AI</span>
+                  </div>
+                  <div class="feature-item">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Sharable link</span>
+                  </div>
+                  <div class="feature-item">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Self learning AI</span>
+                  </div>
+                  <div class="feature-item">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Mobile friendly</span>
+                  </div>
+                  <div class="feature-item">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">PMS connection</span>
+                  </div>
+                  <div class="feature-item">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Advanced model</span>
+                  </div>
+                  <div class="feature-item">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Unified Inbox</span>
+                  </div>
+                  <div class="feature-item">
+                    <span class="feature-icon">&#10003;</span>
+                    <span class="feature-text">Train w/past conversations</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Image Section -->
+          <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center">
+            <div class="hero-img" data-aos="zoom-out" data-aos-delay="200" style="background-color: #f0f0f0; padding: 20px; display: flex; justify-content: center; align-items: center; border: 2px solid #4E1E7B; border-radius: 20px;">
+              <video controls style="max-width: 80%; height: auto; border-radius: 15px;">
+                <source src="assets/pro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing section">
-
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
@@ -349,84 +542,54 @@
         </header>
 
         <div class="row gy-4" data-aos="fade-left" style="text-align: center; margin-bottom: 50px">
-          <!-- <h4 id="output">8 € per rental, per month</h4>
-          <div id="output2">8 € total</div>
-          <div id="slider-container">
-            <input type="range" id="slider" class="slider" min="1" max="100" value="1"><br>
-            <label for="slider">Rentals: </label>
-            <span id="slider-value">1</span>
-          </div> -->
 
-          <div class="col-lg-4 col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <!-- Free Plan -->
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box" style="background: #2f1a5e;">
+              <h3 style="color: white">Free</h3>
+              <div style="margin-bottom:10px; color: white">Limited features</div>
+              <div class="price" style="color: white;"><sup>€</sup>0<span> monthly / unit</span></div>
+
+              <a href="https://dashboard.primehost.ai" class="btn-buy" style="color: white; border: 2px solid white;">Get started</a>            </div>
+          </div><!-- End Free Plan -->
+
+          <!-- Individual Plan -->
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
               <h3 style="color: #20c997;">Individual</h3>
               <div style="margin-bottom:10px">1-10 properties</div>
-              <div class="price"><sup>€</sup>8<span> / mo</span></div>
-              <!-- <div class="icon">
-                <i class="bi bi-box" style="color: #20c997;"></i>
-              </div> -->
+              <div class="price"><sup>€</sup>8<span> monthly / unit</span></div>
 
-              <!-- <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul> -->
               <a href="https://dashboard.primehost.ai" class="btn-buy">Get started</a>
             </div>
-          </div><!-- End Pricing Item -->
+          </div><!-- End Individual Plan -->
 
-          <div class="col-lg-4 col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <!-- Pro Plan -->
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="box">
-              <!-- <span class="featured">Featured</span> -->
-              <h3 style="color: #0dcaf0;">Pro</h3>
+              <h3 style="color: #0dcaf0;">Manager</h3>
               <div style="margin-bottom:10px">11-50 properties</div>
-              <div class="price"><sup>€</sup>5<span> / mo</span></div>
-              <!-- <div class="icon">
-                <i class="bi bi-send" style="color: #0dcaf0;"></i>
-              </div> -->
+              <div class="price"><sup>€</sup>5<span> monthly / unit</span></div>
 
-              <!-- <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul> -->
               <a href="https://dashboard.primehost.ai" class="btn-buy">Get started</a>
             </div>
-          </div><!-- End Pricing Item -->
+          </div><!-- End Pro Plan -->
 
-          <div class="col-lg-4 col-md-4" data-aos="zoom-in" data-aos-delay="300">
+          <!-- Enterprise Plan -->
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="box">
               <h3 style="color: #fd7e14;">Enterprise</h3>
               <div style="margin-bottom:10px"> >50 properties</div>
-              <div class="price" style="color: white"><sup>€</sup></div>
-              <!-- <div class="icon">
-                <i class="bi bi-airplane" style="color: #fd7e14;"></i>
-              </div> -->
+              <div class="price" style="color: white"><sup>€</sup>Contact us<span></span></div>
 
-              <!-- <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul> -->
               <a href="#contact" class="btn-buy">Contact us</a>
             </div>
-          </div><!-- End Pricing Item -->
+          </div><!-- End Enterprise Plan -->
 
         </div><!-- End pricing row -->
 
-        <div class="row gy-4" data-aos="fade-left">
-
-        </div>
-
       </div>
-
-    </section><!-- End Pricing Section -->
+    </section><!-- End Pricing Section --><!-- End Pricing Section -->
 
     <section id="customers" class="clients">
       <div class="container">
