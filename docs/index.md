@@ -3,7 +3,7 @@ title: Overview
 description: Here you can learn how to navigate around the Dashboard
 nav_order: 0
 ---
-# About us:
+# About PrimeHost.AI
 
 Say good-bye to repetitive guest questions with the best **AI-powered messaging platform** for Hotels & Short Term Rentals.
 
