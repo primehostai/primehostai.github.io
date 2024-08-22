@@ -5,19 +5,11 @@ nav_order: 0
 ---
 # About us:
 
-PrimeHost is an AI-powered guest messaging platform for Hotels & STR managers. It's a startup founded by a property manager and an all-star team of software engineers. Backed by leading investors in the Short Term Rental Industry, our mission is simple: **Make your guest interactions effortless & change the way guest communication works.**
+Say good-bye to repetitive guest questions with the best **AI-powered messaging platform** for Hotels & Short Term Rentals.
 
-Guest communication is **key** in a successful Hospitality business. If you think about it, it's the **only** way that the property can provide personalized experiences, go the extra mile for their guests, show true commitment & eventually create an emotional bond that will revent into awesome reviews & repetitive customers.
+Integrated with OTAs & popular Property Management Systems, PrimeHost empowers you to handle an increasing volume of guest inquiries effortlessly as your business grows.
 
-**What's the catch?** Great communication is **extremely time consuming!**
-
-You need to be available 24/7 for your guest's needs, always respond with clear & effective messages, keep a professional tone & of course, instantly handle emergencies. As you grow your successful business & serve lot's of customers, it's inevitable to lose in quality.
-
-**What if there is another way?**
-
-Integrated with OTAs (Airbnb, [Booking.com](http://Booking.com)) & popular Property Management Systems (Hosthub, Guesty, Hostify, Hostfully), **PrimeHost** empowers you to handle an increasing volume of guest inquiries effortlessly as your business grows.
-
-**Benefits for the property:**
+<p style="text-align: start">&nbsp;<strong>Benefits for the property:</strong></p>
 
 *   **Save time:** Automate responses and free up your schedule
     
@@ -44,7 +36,7 @@ If you use one of the integrated PMS, you can instantly import your properties &
 
 **Booking Channels:**
 
-If you don't use a PMS yet, you can still add PrimeHost directly into your Airbnb or [Booking.com](http://Booking.com) accounts. This would require a few manual steps, so we strongly suggest to book a demo.
+If you don't use a PMS yet, you can still add PrimeHost directly into your Airbnb or [Booking.com](http://Booking.com) accounts through the PrimeHost Extension.
 
 # Suggested Replies:
 
