@@ -1,5 +1,5 @@
 ---
-title: "Airbnb "
+title: Custom Airbnb Integration
 description: "Connect PrimeHost to your Airbnb Account "
 ---
 # **Airbnb custom connection**
