@@ -1,7 +1,7 @@
 ---
 title: "Guesty "
 description: Connect your Guesty account
-nav_order: 2
+nav_order: 3
 ---
 # **Guesty**
 
