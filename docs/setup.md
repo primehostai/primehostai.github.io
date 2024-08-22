@@ -1,6 +1,5 @@
 ---
 title: "Setup "
-nav_order: 1
 ---
 # 1\. Connect your tech stack
 
