@@ -166,6 +166,36 @@
     background: #230A4A;
     color: #fff;
   }
+  /* Default styles */
+  .service-box {
+    margin: auto;
+    text-align: center;
+    max-width: 150px;
+    padding: 10px;
+  }
+
+  .service-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Adjustments for mobile devices */
+  @media (max-width: 768px) {
+    .d-flex.flex-wrap .flex-item {
+      flex: 0 0 100%; /* Each item takes full width on small screens */
+      max-width: 100%;
+      margin-bottom: 20px; /* Add some spacing between items */
+    }
+
+    .service-box {
+      max-width: 80%; /* Increase the box size on smaller screens */
+      padding: 15px; /* Increase padding for a better appearance */
+    }
+
+    .service-img {
+      max-width: 100px; /* Adjust the image size */
+    }
+  }
 </style>
 
 <body>
@@ -360,7 +390,7 @@
           <div class="col-lg-6 col-md-12">
             <header class="section-header">
               <p style="color: #230A4A">Starter Plan</p>
-              <p style="font-size: 20px; color: #4E1E7B">Connect Instantly. Connect for free</p>
+              <p style="font-size: 20px; color: #4E1E7B">Connect Instantly. Connect for Free.</p>
             </header>
 
             <div class="row gy-4 d-flex align-items-center justify-content-center">
@@ -432,11 +462,20 @@
           <!-- Right Image Section -->
           <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center">
             <div class="hero-img" data-aos="zoom-out" data-aos-delay="200" style="background-color: #f0f0f0; padding: 20px; display: flex; justify-content: center; align-items: center; border: 2px solid #4E1E7B; border-radius: 20px;">
-              <video controls style="max-width: 80%; height: auto; border-radius: 15px;">
-                <source src="assets/free.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
+              <iframe width="560" height="560"
+                      src="https://www.youtube.com/embed/J1k5mxHiYX0"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen></iframe>
             </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <a href="https://dashboard.primehost.ai" target="_blank" class="btn btn-primary" style="background-color: #4E1E7B; border-color: #4E1E7B; color: white; padding: 10px 20px; border-radius: 5px; font-size: 18px; text-decoration: none;">
+              Get started
+            </a>
           </div>
         </div>
       </div>
@@ -455,7 +494,7 @@
 
             <div class="row gy-4">
               <div class="col-12" data-aos="fade-up" data-aos-delay="300">
-                <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-between align-items-center flex-wrap">
                   <a href="https://primehost.ai/docs/hostfully/" target="_blank" class="flex-item">
                     <div class="service-box purple" style="margin: auto; text-align: center;">
                       <img src="assets/img/hostfully.svg" alt="hostfully_logo" class="service-img equal-img">
@@ -523,11 +562,20 @@
           <!-- Right Image Section -->
           <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center">
             <div class="hero-img" data-aos="zoom-out" data-aos-delay="200" style="background-color: #f0f0f0; padding: 20px; display: flex; justify-content: center; align-items: center; border: 2px solid #4E1E7B; border-radius: 20px;">
-              <video controls style="max-width: 80%; height: auto; border-radius: 15px;">
-                <source src="assets/pro.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
+              <iframe width="560" height="560"
+                      src="https://www.youtube.com/embed/7WF5rs9eY4s"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen></iframe>
             </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <a href="https://dashboard.primehost.ai" target="_blank" class="btn btn-primary" style="background-color: #4E1E7B; border-color: #4E1E7B; color: white; padding: 10px 20px; border-radius: 5px; font-size: 18px; text-decoration: none;">
+              Get started
+            </a>
           </div>
         </div>
       </div>
@@ -546,17 +594,19 @@
           <!-- Free Plan -->
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="box" style="background: #2f1a5e;">
-              <h3 style="color: white">Free</h3>
+              <h4 style="color: white; font-size: 16px;">Starter Plan</h4>
+              <h3 style="color: white; font-size: 24px;">Free</h3>
               <div style="margin-bottom:10px; color: white">Limited features</div>
               <div class="price" style="color: white;"><sup>€</sup>0<span> monthly / unit</span></div>
-
-              <a href="https://dashboard.primehost.ai" class="btn-buy" style="color: white; border: 2px solid white;">Get started</a>            </div>
+              <a href="https://dashboard.primehost.ai" class="btn-buy" style="color: white; border: 2px solid white;">Get started</a>
+            </div>
           </div><!-- End Free Plan -->
 
           <!-- Individual Plan -->
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
-              <h3 style="color: #20c997;">Individual</h3>
+              <h4 style="color: #2f1a5e; font-size: 16px;">Pro Plan</h4>
+              <h3 style="color: #20c997; font-size: 24px;">Individual</h3>
               <div style="margin-bottom:10px">1-10 properties</div>
               <div class="price"><sup>€</sup>8<span> monthly / unit</span></div>
 
@@ -567,7 +617,8 @@
           <!-- Pro Plan -->
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="box">
-              <h3 style="color: #0dcaf0;">Manager</h3>
+              <h4 style="color: #2f1a5e; font-size: 16px;">Pro Plan</h4>
+              <h3 style="color: #0dcaf0; font-size: 24px;">Manager</h3>
               <div style="margin-bottom:10px">11-50 properties</div>
               <div class="price"><sup>€</sup>5<span> monthly / unit</span></div>
 
@@ -578,7 +629,8 @@
           <!-- Enterprise Plan -->
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="box">
-              <h3 style="color: #fd7e14;">Enterprise</h3>
+              <h4 style="color: #2f1a5e; font-size: 16px;">Pro Plan</h4>
+              <h3 style="color: #fd7e14; font-size: 24px;">Enterprise</h3>
               <div style="margin-bottom:10px"> >50 properties</div>
               <div class="price" style="color: white"><sup>€</sup>Contact us<span></span></div>
 
