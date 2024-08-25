@@ -1,7 +1,7 @@
 ---
 title: Train an Assistant
 description: Here you can learn how to add information & train a PrimeHost Assistant.
-nav_order: 1
+nav_order: 3
 ---
 # **Train an Assistant**
 
