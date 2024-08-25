@@ -1,5 +1,5 @@
 ---
-title: PrimeHost Extension
+title: PrimeHost Extension Screen
 ---
 # **PrimeHost Extension**
 
