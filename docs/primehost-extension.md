@@ -1,5 +1,5 @@
 ---
-title: PrimeHost Extension
+title: Add Chrome Extension
 ---
 # **PrimeHost Extension**
 
