@@ -1,6 +1,7 @@
 ---
 title: Hostify
 description: Connect your Hostify account
+nav_order: 6
 ---
 # **Hostify**
 
