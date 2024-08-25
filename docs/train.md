@@ -5,6 +5,8 @@ nav_order: 1
 ---
 # **Train an Assistant**
 
-Here you can learn how to add information & train a PrimeHost Assistant.
+Here you can learn how to add knowledge & train a PrimeHost Assistant.
+
+### **Set Up Walkthrough:**
 
 VIDEO
