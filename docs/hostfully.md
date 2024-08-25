@@ -1,6 +1,7 @@
 ---
 title: Hostfully
 description: Connect your Hostfully account
+nav_order: 7
 ---
 # **Hostfully**
 
