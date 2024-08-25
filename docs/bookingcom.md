@@ -1,6 +1,7 @@
 ---
 title: Custom Booking.com Integration
 description: Connect PrimeHost to Booking.com
+published: false
 ---
 # **Booking.com** **custom connection**
 
