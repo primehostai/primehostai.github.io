@@ -10,7 +10,7 @@ Here you can learn how to install PrimeHost’s Chrome Extension for Airbnb, [Bo
 
 ### **Set Up Walkthrough:**
 
-VIDEO
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XKfWl5iOveE?si=ayGUl6orfWE2UCYH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Benefits:
 
