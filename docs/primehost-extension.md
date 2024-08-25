@@ -1,9 +1,14 @@
 ---
 title: Add Chrome Extension
+nav_order: 1
 ---
 # **PrimeHost Extension**
 
 **PrimeHost's Chrome Extension** is the most convenient way to see & use PrimeHost's suggested replies.
+
+Here you can learn how to install PrimeHost’s Chrome Extension for Airbnb, [Booking.com](http://Booking.com) or your Property Management System.
+
+### **Set Up Walkthrough:**
 
 VIDEO
 
