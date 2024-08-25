@@ -7,4 +7,6 @@ nav_order: 1
 
 Here you can learn how to manually create your first PrimeHost AI Assistant.
 
-VIDEO
+### **Set Up Walkthrough:**
+
+### VIDEO
