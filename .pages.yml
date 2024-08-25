@@ -17,3 +17,4 @@ content:
       - { name: description, label: Description, type: string }
       - { name: nav_order, label: Order, type: number }
       - { name: body, label: Body, type: rich-text }
+      - { name: published, label: Published, type: boolean, default: true}
