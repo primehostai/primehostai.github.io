@@ -31,10 +31,12 @@
     });
     function logLinkClickEvent(event) {
       var hrefValue = event.target.getAttribute('href') || 'no-href'; // Get the href of the clicked link or 'no-href' if not present
-      gtag('event', 'click', {
-        'event_category': 'LinkClick',   // Category of the event
-        'event_label': hrefValue,        // Label, which is the href of the clicked link
-        'event_action': 'click'          // Action of the event
+      gtag('event', 'page_view', {
+        // 'event_category': 'LinkClick',   // Category of the event
+        // 'event_label': hrefValue,        // Label, which is the href of the clicked link
+        // 'event_action': 'click'          // Action of the event
+        'page_path': hrefValue,
+        'page_title': hrefValue // Optional, adds a title to the pageview
       });
     }
 
