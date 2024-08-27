@@ -231,7 +231,21 @@
     .service-img {
       max-width: 100px; /* Adjust the image size */
     }
+
   }
+
+  /* Hides element on mobile devices */
+.mobile-hide {
+    display: none;
+}
+
+@media (min-width: 769px) {
+    /* Shows the element again on devices larger than 768px */
+    .mobile-hide {
+        display: block;
+    }
+}
+
 </style>
 
 <body>
@@ -367,7 +381,7 @@
     </section>
 
     <!-- ======= How it works Section ======= -->
-    <section id="about" class="how">
+    <section id="about" class="how mobile-hide">
 
       <div data-aos="fade-up">
 
@@ -404,7 +418,6 @@
 
                 <div class="col-sm-12 col-md-12" style="margin:auto; align-content: center; text-align:center">
                   <img src="assets/img/native.png" alt="native" style="width: 90%; margin: auto;">
-
                 </div>
                 <!-- <div class="col-md-2"></div> -->
               </div>
@@ -433,7 +446,7 @@
               <div class="d-flex justify-content-between align-items-center">
 
               <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <a href="https://primehost.ai/docs/primehostfree/" target="_blank">
+              <a href="https://www.youtube.com/watch?v=eA1lJ1Gytqg" target="_blank">
                 <div class="service-box purple" style="margin: auto; text-align: center;">
                   <img src="assets/img/airbnb.png" alt="airbnb_logo" class="service-img equal-img" style="width: 50%;">
                 </div>
@@ -441,7 +454,7 @@
             </div>
 
             <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <a href="https://primehost.ai/docs/primehostfree/" target="_blank">
+              <a href="https://www.youtube.com/watch?v=eA1lJ1Gytqg" target="_blank">
                 <div class="service-box purple" style="margin: auto; text-align: center;">
                   <img src="assets/img/booking_logo.png" alt="booking_logo" class="service-img equal-img">
                 </div>
@@ -499,7 +512,7 @@
           <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center">
             <div class="hero-img" data-aos="zoom-out" data-aos-delay="200" style="background-color: #f0f0f0; padding: 20px; display: flex; justify-content: center; align-items: center; border: 2px solid #4E1E7B; border-radius: 20px;">
               <iframe width="315" height="560"
-                      src="https://www.youtube.com/embed/J1k5mxHiYX0"
+                      src="https://www.youtube.com/embed/eA1lJ1Gytqg"
                       title="YouTube video player"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -516,8 +529,8 @@
         </div>
       </div>
     </section>
-
     <!-- End Free Services Section -->
+
     <section id="services" class="services">
       <div class="container" data-aos="fade-up">
         <div class="row gy-4">
@@ -527,7 +540,7 @@
               <p style="color: #230A4A">Pro Plan</p>
               <p style="font-size: 20px; color: #4E1E7B">Elevate the experience. Host like a Pro.</p>
             </header>
-
+          
             <div class="row gy-4">
               <div class="col-12" data-aos="fade-up" data-aos-delay="300">
                 <div class="d-flex justify-content-between align-items-center flex-wrap">
