@@ -4,14 +4,43 @@
 <head>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-52N655M6CY"></script>
   <script>
+    <!--
+    Meta
+    Pixel
+    Code -->
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1014364393497286');
+    fbq('track', 'PageView');
 
+    <!-- End Meta Pixel Code -->
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'G-52N655M6CY');
 
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
       var aboutUsSection = document.getElementById('free-services');
       if (window.scrollY >= aboutUsSection.offsetTop) {
         gtag('event', 'page_view', {
@@ -20,7 +49,7 @@
         });
       }
     });
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
       var aboutUsSection = document.getElementById('howto');
       if (window.scrollY >= aboutUsSection.offsetTop) {
         gtag('event', 'page_view', {
@@ -29,6 +58,7 @@
         });
       }
     });
+
     function logLinkClickEvent(event) {
       var hrefValue = event.target.getAttribute('href') || 'no-href'; // Get the href of the clicked link or 'no-href' if not present
       gtag('event', 'page_view', {
@@ -42,10 +72,14 @@
 
     // Add event listener to all <a> elements
     var links = document.querySelectorAll('a');
-    links.forEach(function(link) {
+    links.forEach(function (link) {
       link.addEventListener('click', logLinkClickEvent);
     });
   </script>
+
+  <noscript><img height="1" width="1" style="display:none"
+                 src="https://www.facebook.com/tr?id=1014364393497286&ev=PageView&noscript=1"
+  /></noscript>
 
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
