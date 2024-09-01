@@ -151,6 +151,36 @@ section {
     }
 }
 
+.youtube{
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #4E1E7B;
+  border-radius: 20px;
+}
+
+/* Styles specific for mobile devices */
+@media (max-width: 768px) {
+  .responsive-iframe {
+    /* Example: Adjust height or any other property for mobile */
+    height: 400px;
+    width: 100%;
+  }
+}
+
+/* Styles specific for laptop and larger devices */
+@media (min-width: 769px) {
+  .responsive-iframe {
+    /* Example: Adjust width, padding or other properties for larger screens */
+    height: 100%;
+    width: 100%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
