@@ -2,6 +2,7 @@
 title: Mobile - Slack App
 description: Your guest communication in one place!
 nav_order: 8
+published: true
 ---
 # **Slack App** for suggested replies
 
@@ -19,11 +20,11 @@ Benefits:
 
 **Click “Integrations” on the Dashboard sidebar**
 
-<img src="/docs/media/Screenshot 2024-05-20 at 6.25.56 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+<img src="/docs/media/slack1.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 **Click “Add to Slack” button**
 
-<img src="/docs/media/Screenshot 2024-05-20 at 6.47.09 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+<img src="/docs/media/slack2.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 **Follow the steps to create a free Slack account & add PrimeHost Integration to a channel.** Once you download & open Slack, enter the channel where you have invited PrimeHost Integration to join.
 
