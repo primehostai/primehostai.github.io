@@ -2,10 +2,11 @@
 title: Overview
 description: Here you can learn how to navigate around the Dashboard
 nav_order: 0
+published: true
 ---
-# About PrimeHost.AI
+# **About PrimeHost**
 
-Say good-bye to repetitive guest questions with the best **AI-powered messaging platform** for Hotels & Short Term Rentals.
+Say goodbye to repetitive guest questions with the best **AI-powered messaging platform** for Hotels & Short Term Rentals.
 
 Integrated with OTAs & popular Property Management Systems, PrimeHost empowers you to handle an increasing volume of guest inquiries effortlessly as your business grows.
 
