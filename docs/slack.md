@@ -12,17 +12,17 @@ Slack App is a great tool, free & easy to use! You can keep all your guest commu
 
 Benefits:
 
-✔️ Replies for your quest’s questions will be auto generated & shown directly into Slack.
+✔️ Replies for your quest’s questions will be auto-generated & shown directly in Slack.
 
-<p style="text-align: start">✔️ You get push notifications, each time you get a new message from any booking channel.</p><p style="text-align: start">✔️ Emergency alerts, Booking Actions &amp; casual replies are categorised, so you can prioritise your time.</p>
+<p style="text-align: start">✔️ You get push notifications, each time you get a new message from any booking channel.</p><p style="text-align: start">✔️ Emergency alerts, Booking Actions &amp; casual replies are categorized, so you can prioritize your time.</p>
 
 ### **How to Connect PrimeHost with Slack App**
 
-**Click “Integrations” on the Dashboard sidebar**
+**Click “Communication” on the Dashboard sidebar**
 
 <img src="/docs/media/slack1.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
-**Click “Add to Slack” button**
+**Click the “Add to Slack” button**
 
 <img src="/docs/media/slack2.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
