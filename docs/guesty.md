@@ -2,12 +2,17 @@
 title: "Guesty "
 description: Connect your Guesty account
 nav_order: 5
+published: true
 ---
 # **Guesty**
 
 Guesty’s advanced technology optimizes, automates, and streamlines every aspect of managing a hospitality business from one listing to thousands, all from one platform.
 
 PrimeHost’s All-in-One AI Assistant is now available through Guesty's unified inbox. Connect instantly & make your guest interactions effortless!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iSS2aAX_cl4?si=XJv4i3Bh5SBzYlFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## **Set Up Walkthrough:**
 
 **From your Guesty account, enter "Guesty Marketplace"**
 
