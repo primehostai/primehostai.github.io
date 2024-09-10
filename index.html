@@ -100,6 +100,7 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <!-- Meta Pixel Code -->
+
   <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -278,17 +279,45 @@
 
   }
 
-  /* Hides element on mobile devices */
-.mobile-hide {
-    display: none;
-}
+    /* Hides element on mobile devices */
+  .mobile-hide {
+      display: none;
+  }
 
-@media (min-width: 769px) {
-    /* Shows the element again on devices larger than 768px */
-    .mobile-hide {
-        display: block;
+  @media (min-width: 769px) {
+      /* Shows the element again on devices larger than 768px */
+      .mobile-hide {
+          display: block;
+      }
+  }
+
+  .custom-img {
+    width: 100%; /* Default width for responsiveness */
+    max-width: 1200px; /* Increased max-width for non-mobile screens */
+    margin: auto;
+  }
+
+  /* Media query for larger screens */
+  @media (min-width: 992px) { /* Target screens larger than 992px (desktops and larger tablets) */
+    .custom-img {
+      scale: 150%;
+      max-width: 1200px; /* Increase the max-width */
     }
-}
+  }
+
+  .custom-img-bnb {
+    max-width: 100%; /* Default width for responsiveness */
+    object-fit: contain;
+    width: auto;
+    height: auto;
+  }
+
+  /* Media query for smaller screens (mobile devices) */
+  @media (max-width: 767px) { /* Target screens smaller than 768px (phones and smaller tablets) */
+    .custom-img-bnb {
+      max-height: 200px; /* Increase size on mobile */
+    }
+  }
 
 </style>
 
@@ -310,7 +339,6 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#services">Connect</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="nav-link" href="/docs" target="_blank">Documentation</a></li>
@@ -330,14 +358,14 @@
         <!-- <div class="col-lg-1"></div> -->
         <div class="col-lg-12 d-flex flex-column justify-content-center">
           <div class="header-container">
-            <div class="col-md-2"></div>
-            <h1 class="sentence col-md-6">Guest communication made</h1>
-            <span id="animated-word" class="word col-md-4 word word_mobile" style="color: #FFC000;"></span>
+            <!-- New container to align 'MADE' and animated word side-by-side -->
+            <h1 class="sentence">AI-powered platform for Hosts</h1>
           </div>
-          <h2><b>for Hotels and Property Managers</b></h2>
+          <h2><b>Property management made easy</b></h2>
           <div style="margin-left: auto; margin-right: auto">
+
             <div class="text-center text-lg-start">
-              <a href="https://dashboard.primehost.ai/" target="_blank" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="#setup" target="_blank" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Get Started</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -362,122 +390,171 @@
 
   <main id="main">
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
-      <div class="container">
-
-        <div class="row" data-aos="zoom-in">
-
-          <div class="col-sm-1 col-lg-1 col-md-1 col-1 d-flex align-items-center justify-content-center">
-          </div>
-
-          <div class="col-sm-5 col-lg-5 col-md-5 d-flex align-items-center justify-content-center">
-            <!-- <h5 style="text-align: center; vertical-align:middle; margin-right:20px; color: #4E1E7B">Backed by </h5> -->
-            <img src="assets/img/capsulet.png" class="img-fluid" alt="capsulet" style="width:35%">
-          </div>
-
-          <div class="col-sm-5 col-lg-5 col-md-5 d-flex align-items-center justify-content-center">
-            <img src="assets/img/microsoft_logo.png" style="width:10%" class="img-fluid" alt="microsoft_logo"><img src="assets/img/micro.png" class="img-fluid" alt="microsoft_logo" style="width: 25%" alt="">
-          </div>
-
-          <div class="col-lg-1 col-md-1 col-1 d-flex align-items-center justify-content-center">
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Cliens Section
 
     <!-- ======= How it works Section ======= -->
     <section id="howto" class="how">
-
       <div class="container" data-aos="fade-up">
 
-        <header class="section-header">
-          <!-- <h2>Features</h2> -->
-          <!-- <p>Dashboard</p> -->
-          <p style="color:#230A4A">Take advantage of AI</p>
-          <p style="font-size: 20px; color:#4E1E7B">Over 75% of AI generated replies are used without a single edit</p>
+        <header class="section-header" style="text-align: center;">
+          <p style="color: #230A4A; font-size: 24px; font-weight: bold;">AI trained on your property</p>
         </header>
 
-        <div class="row gx-0">
-
-          <!-- <div class="col-lg-6 d-flex align-items-center justify-content-center" data-aos="zoom-out" data-aos-delay="200">
-            <img id="second" src="assets/img/second.png" class="img-fluid" alt="">
-          </div> -->
-
-          <!-- <div class="col-lg-1 d-flex align-items-center justify-content-center" data-aos="zoom-out" data-aos-delay="200"></div> -->
-
-          <div class="col-lg-12 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="content">
-              <!-- <h2><b style="color:#4E1E7B">Best quality</b> AI messaging platform for hospitality</h2> -->
-              <!-- <h2>PrimeHost automates the communication between properties and their guests, utilizing AI technology to generate instant, well written & personalized responses, at every guest touchpoint.</h2> -->
-              <!-- <h2 style="text-align:center; margin-bottom:10px;">How it works</h2><br> -->
-              <div class="row">
-                <div class="col-sm-12 col-md-12" style="margin:auto; align-content: center; text-align:center">
-                  <img src="assets/img/dashboard.jpg" alt="dashboard" style="width: 80%; margin: auto; padding: 20px; border: 1px solid #230A4A; border-radius: 10px">
-
-                </div>
-                <!-- <div class="col-md-2"></div> -->
-              </div>
+        <div class="row gx-0 d-flex flex-column align-items-center">
+          <!-- Text Content -->
+          <div class="col-lg-8 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content" style="padding: 20px; text-align: center;">
+              <p style="font-size: 18px; color: #333; line-height: 1.6; margin-bottom: 20px;">
+                Work with an AI partner that helps you accomplish your daily tasks,
+                responds to guest inquiries, tracks maintenance and collects guest data
+              </p>
             </div>
+          </div>
+
+          <!-- Image Content -->
+          <div class="col-lg-8 d-flex justify-content-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/images/primedesign.png" alt="dashboard" class="img-fluid custom-img" style="padding: 20px; z-index: -1000;">
           </div>
         </div>
       </div>
+    </section>
 
+    <section id="setup" class="how">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header" style="text-align: center; margin-bottom: 10px;">
+          <p style="color: #230A4A; font-size: 24px; font-weight: bold; margin-bottom: 10px;">Go Live in just a few minutes</p>
+        </header>
+
+        <div class="row gx-0 align-items-start">
+          <!-- Section 1 -->
+          <div class="col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="content" style="padding: 20px; text-align: left; height: 300px; display: flex; flex-direction: column;">
+              <div style="margin-bottom: 10px; font-size: 36px;"><span style="color: #230A4A;">01.</span></div>
+              <div class="title-h4" style="margin-bottom: 15px;">Create an account</div>
+              <p style="font-size: 18px; color: #333; line-height: 1.6;">
+                Sign up for a free account and get started. It takes less than a minute!
+              </p>
+            </div>
+          </div>
+
+          <!-- Section 2 -->
+          <div class="col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="400">
+            <div class="content" style="padding: 20px; text-align: left; height: 300px; display: flex; flex-direction: column; ">
+              <div style="margin-bottom: 10px; font-size: 36px;"><span style="color: #230A4A;">02.</span></div>
+              <div class="title-h4" style="margin-bottom: 15px;">Add Extension</div>
+              <p style="font-size: 18px; color: #333; line-height: 1.6;">
+                Install PrimeHost extension directly from the Chrome Web Store. That will allow PrimeHost to assist you on Airbnb, Booking.com or any PMS.
+              </p>
+            </div>
+          </div>
+
+          <!-- Section 3 -->
+          <div class="col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="600">
+            <div class="content" style="padding: 20px; text-align: left; height: 300px; display: flex; flex-direction: column;">
+              <div  style="margin-bottom: 10px; font-size: 36px;"><span style="color: #230A4A;">03.</span></div>
+              <div class="title-h4" style="margin-bottom: 15px;">Import properties</div>
+              <p style="font-size: 18px; color: #333; line-height: 1.6;">
+                PrimeHost AI will automatically train on your property data. You can start using it right away.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-left: auto; margin-right: auto">
+          <div class="row mt-4">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <a href="https://dashboard.primehost.ai" target="_blank" class="btn btn-primary" style="background-color: #4E1E7B; border-color: #4E1E7B; color: white; padding: 10px 20px; border-radius: 5px; font-size: 18px; text-decoration: none;">
+                <span><b>Sign up</b> It's free</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </section>
 
     <!-- ======= How it works Section ======= -->
-    <section id="about" class="how mobile-hide">
 
-      <div data-aos="fade-up">
+    <section id="benefits" class="services section">
 
-        <header class="section-header">
-          <!-- <h2>Features</h2> -->
-          <p style="color:#230A4A">Go Live in just a few minutes</p>
-          <p style="font-size: 20px; color:#4E1E7B">Instant Setup</p>
-        </header>
+      <!-- Section Title -->
+      <header class="section-header" style="text-align: center; margin-bottom: 20px;">
+        <p style="color: #230A4A; font-size: 24px; font-weight: bold; ">User Benefits</p>
+      </header>
 
-        <div class="row gx-0">
+      <div class="container"  style="margin-top: 20px;">
 
-          <!-- <div class="col-lg-6 d-flex align-items-center justify-content-center" data-aos="zoom-out" data-aos-delay="200">
-            <img id="second" src="assets/img/second.png" alt="" class="img-fluid" alt="">
-          </div> -->
+        <div class="row gy-4">
 
-          <!-- <div class="col-lg-1 d-flex align-items-center justify-content-center" data-aos="zoom-out" data-aos-delay="200"></div> -->
-
-          <div class="col-lg-12 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="content">
-              <!-- <h3>What we do</h3> -->
-              <!-- <h2>PrimeHost automates the communication between properties and their guests, utilizing AI technology to generate instant, well written & personalized responses, at every guest touchpoint.</h2> -->
-              <!-- <h2 style="text-align:center; margin-bottom:10px;">How it works</h2><br> -->
-              <div class="row">
-                <!-- <div class="col-md-2"></div> -->
-                <!-- <div class="col-sm-6 col-md-6 border-right" style="align-content: center">
-                  <h3 style="width:100%">Messaging on autopilot</h3>
-                  <img src="assets/img/custom_qr.png" alt="" style="width: 70%; margin-right: 50px; margin-left: 100px">
-                </div>
-
-                <div class="col-sm-6 col-md-6" style="margin-left:auto;">
-                  <h3>Suggested replies</h3><br>
-                  <img src="assets/img/draft.png" alt="" style="width: 100%; margin-left:40px">
-                </div> -->
-
-                <div class="col-sm-12 col-md-12" style="margin:auto; align-content: center; text-align:center">
-                  <img src="assets/img/native.jpg" alt="native" style="width: 90%; margin: auto;">
-                </div>
-                <!-- <div class="col-md-2"></div> -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
               </div>
+              <h3>Save time</h3>
+              <p>Automate responses and free up your schedule</p>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
-          <div class="col-lg-1 d-flex align-items-center justify-content-center" data-aos="zoom-out" data-aos-delay="200"></div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <h3>Reply instantly
+              </h3>
+              <p>Provide immediate answers to guest inquiries</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <h3>Reduce errors</h3>
+              <p>Ensure accurate information is shared every time</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <h3>Boost SEO</h3>
+              <p>Enhance your online presence and rankings</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week"></i>
+              </div>
+              <h3>Improve experiencce</h3>
+              <p>Deliver prompt and personalized communication</p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <h3>Get ROI
+              </h3>
+              <p>Automate operations and
+                save tons of $$$</p>
+            </div>
+          </div><!-- End Service Item -->
 
         </div>
+
       </div>
 
-    </section><!-- End How it works Section -->
-
+    </section>
     <!-- =======  Free Services Section ======= -->
     <section id="free-services" class="services">
       <div class="container" data-aos="fade-up">
@@ -485,30 +562,21 @@
           <!-- Left Content Section -->
           <div class="col-lg-6 col-md-12">
             <header class="section-header">
-              <p style="color: #230A4A">Starter Plan</p>
-              <p style="font-size: 20px; color: #4E1E7B">Connect Instantly. Connect for Free.</p>
+              <p style="color: #230A4A">Free Plan</p>
+              get tailor-made suggestions
             </header>
 
             <div class="row gy-4 d-flex align-items-center justify-content-center">
-              <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex justify-content-center align-items-center"> <!-- Updated to center content -->
 
-              <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <a href="https://www.youtube.com/watch?v=eA1lJ1Gytqg" target="_blank">
-                  <div class="service-box purple" style="margin: auto; text-align: center;">
-                    <img src="assets/img/airbnb.png" alt="airbnb_logo" class="service-img equal-img" style="width: 50%;">
-                  </div>
-                </a>
-            </div>
-
-            <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <a href="https://www.youtube.com/watch?v=eA1lJ1Gytqg" target="_blank">
-                <div class="service-box purple" style="margin: auto; text-align: center;">
-                  <img src="assets/img/booking_logo.png" alt="booking_logo" class="service-img equal-img">
+                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <a href="https://www.youtube.com/watch?v=eA1lJ1Gytqg" target="_blank">
+                    <img src="assets/img/airbnb_booking_vertical.png" alt="airbnb_logo" class="custom-img-bnb">
+                  </a>
                 </div>
-              </a>
-            </div>
+
               </div>
-          </div>
+            </div>
 
             <div class="row gy-4" style="margin-top: 20px;">
               <div class="col-lg-12 col-md-12">
@@ -519,11 +587,11 @@
                   </div>
                   <div class="feature-item">
                     <span class="feature-icon">&#10003;</span>
-                    <span class="feature-text">Custom AI</span>
+                    <span class="feature-text">Trained AI</span>
                   </div>
                   <div class="feature-item">
                     <span class="feature-icon">&#10003;</span>
-                    <span class="feature-text">Sharable link</span>
+                    <span class="feature-text">QR Autopilot</span>
                   </div>
                   <div class="feature-item disabled-feature">
                     <span class="feature-icon">&#10003;</span>
@@ -556,6 +624,7 @@
           </div>
 
           <!-- Right Image Section -->
+
           <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center">
             <div class="hero-img youtube" data-aos="zoom-out" data-aos-delay="200">
               <iframe class="responsive-iframe"
@@ -567,13 +636,7 @@
             </div>
           </div>
         </div>
-        <div class="row mt-4">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <a href="https://dashboard.primehost.ai" target="_blank" class="btn btn-primary" style="background-color: #4E1E7B; border-color: #4E1E7B; color: white; padding: 10px 20px; border-radius: 5px; font-size: 18px; text-decoration: none;">
-              Get started
-            </a>
-          </div>
-        </div>
+
       </div>
     </section>
     <!-- End Free Services Section -->
@@ -619,11 +682,11 @@
                   </div>
                   <div class="feature-item">
                     <span class="feature-icon">&#10003;</span>
-                    <span class="feature-text">Custom AI</span>
+                    <span class="feature-text">Trained AI</span>
                   </div>
                   <div class="feature-item">
                     <span class="feature-icon">&#10003;</span>
-                    <span class="feature-text">Sharable link</span>
+                    <span class="feature-text">QR Autopilot</span>
                   </div>
                   <div class="feature-item">
                     <span class="feature-icon">&#10003;</span>
@@ -667,13 +730,7 @@
             </div>
           </div>
         </div>
-        <div class="row mt-4">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <a href="https://dashboard.primehost.ai" target="_blank" class="btn btn-primary" style="background-color: #4E1E7B; border-color: #4E1E7B; color: white; padding: 10px 20px; border-radius: 5px; font-size: 18px; text-decoration: none;">
-              Get started
-            </a>
-          </div>
-        </div>
+
       </div>
     </section>
     <!-- ======= Pricing Section ======= -->
@@ -850,8 +907,34 @@
       </div>
 
     </section><!-- End Contact Section -->
+    <section id="clients" class="clients section-bg">
+      <div class="container">
 
-  </main><!-- End #main -->
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-sm-1 col-lg-1 col-md-1 col-1 d-flex align-items-center justify-content-center">
+          </div>
+
+          <div class="col-sm-5 col-lg-5 col-md-5 d-flex align-items-center justify-content-center">
+            <!-- <h5 style="text-align: center; vertical-align:middle; margin-right:20px; color: #4E1E7B">Backed by </h5> -->
+            <img src="assets/img/capsulet.png" class="img-fluid" alt="capsulet" style="width:35%">
+          </div>
+
+          <div class="col-sm-5 col-lg-5 col-md-5 d-flex align-items-center justify-content-center">
+            <img src="assets/img/microsoft_logo.png" style="width:10%" class="img-fluid" alt="microsoft_logo"><img src="assets/img/micro.png" class="img-fluid" alt="microsoft_logo" style="width: 25%" alt="">
+          </div>
+
+          <div class="col-lg-1 col-md-1 col-1 d-flex align-items-center justify-content-center">
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+  </main>
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
