@@ -263,7 +263,7 @@ body {
 
 /* Specific styles for the stama image */
 .stama-logo {
-  height: 320px; /* Adjust to the desired height */
+  height: 250px; /* Adjust to the desired height */
   object-fit: contain;
   /* Additional styles if needed */
 }
@@ -1678,7 +1678,7 @@ section {
   padding: 40px 20px;
   background: #fff;
   text-align: center;
-  box-shadow: 0px 0 30px #230A4A;
+  box-shadow: 0px 0 10px #230A4A;
   border-radius: 4px;
   position: relative;
   overflow: hidden;
@@ -1687,7 +1687,8 @@ section {
 
 .pricing .box:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  /* box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1); */
+  box-shadow: 0px 0 10px #230A4A;
 }
 
 .pricing h3 {
