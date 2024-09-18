@@ -6,6 +6,306 @@
 * License: https://bootstrapmade.com/license/
 */
 
+.airbnb-img {
+  max-width: 50%; /* Adjust this percentage to control the size */
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+@media (max-width: 768px) {
+  .features-grid {
+    display: none;
+  }
+}
+/* Styling for the disabled feature */
+.d-flex .flex-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.equal-img {
+  width: 100%;
+  max-width: 150px; /* Set a consistent max-width for all images */
+  height: auto;
+}
+
+.service-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid transparent; /* Optional: for visual debugging */
+}
+.disabled-feature .feature-icon {
+  color: #a0a0a0;
+}
+
+
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%; /* Ensure the items take full width of their column */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.disabled-feature {
+  opacity: 0.5; /* Slightly faded to indicate it's disabled */
+}
+
+.feature-icon {
+  color: green;
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.feature-text {
+  font-size: 1em;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr; /* Single column on small screens */
+  }
+}
+@media (max-width: 992px) {
+  #services .hero-img {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #services .row {
+    flex-direction: column-reverse;
+  }
+}
+
+.service-box img {
+  display: block;
+  margin: 0 auto;
+}
+
+.service-img {
+  max-width: 80%; /* Adjust the width percentage as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .service-box {
+    max-width: 250px; /* Increase the max width on mobile */
+    padding: 15px; /* Increase padding if necessary */
+  }
+
+  .service-img {
+    max-width: 200px; /* Increase the image size on mobile */
+  }
+}
+.btn-get-started {
+  display: inline-block;
+  background: #4E1E7B;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.btn-get-started:hover {
+  background: #230A4A;
+  color: #fff;
+}
+/* Default styles */
+.service-box {
+  margin: auto;
+  text-align: center;
+  max-width: 150px;
+  padding: 10px;
+}
+
+.service-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 768px) {
+  .d-flex.flex-wrap .flex-item {
+    flex: 0 0 100%; /* Each item takes full width on small screens */
+    max-width: 100%;
+    margin-bottom: 20px; /* Add some spacing between items */
+  }
+
+  .service-box {
+    max-width: 80%; /* Increase the box size on smaller screens */
+    padding: 15px; /* Increase padding for a better appearance */
+  }
+
+  .service-img {
+    max-width: 100px; /* Adjust the image size */
+  }
+
+}
+
+  /* Hides element on mobile devices */
+.mobile-hide {
+    display: none;
+}
+
+@media (min-width: 769px) {
+    /* Shows the element again on devices larger than 768px */
+    .mobile-hide {
+        display: block;
+    }
+}
+
+.custom-img {
+  width: 100%; /* Default width for responsiveness */
+  max-width: 1200px; /* Increased max-width for non-mobile screens */
+  margin: auto;
+}
+
+/* Media query for larger screens */
+@media (min-width: 992px) { /* Target screens larger than 992px (desktops and larger tablets) */
+  .custom-img {
+    scale: 150%;
+    max-width: 1200px; /* Increase the max-width */
+  }
+}
+
+.text-style{
+  font-size: large;
+}
+.custom-img-bnb {
+  max-width: 100%; /* Default width for responsiveness */
+  object-fit: contain;
+  width: auto;
+  height: auto;
+}
+
+/* Media query for smaller screens (mobile devices) */
+@media (max-width: 767px) { /* Target screens smaller than 768px (phones and smaller tablets) */
+  .custom-img-bnb {
+    max-height: 200px; /* Increase size on mobile */
+  }
+}
+.bootstrap-class p {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+div.service-item p.content-paragraph {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.content-paragraph {
+  font-size: 18px; !important;
+  color: #333; !important;
+  line-height: 1.6; !important;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; !important;
+}
+.section-header p {
+  color: #230A4A;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+}
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.btn-primary {
+  background-color: #4E1E7B;
+  border-color: #4E1E7B;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.title-h4 {
+  font-size: 20px; /* Adjust the size to match the second section */
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #230A4A;
+}
+
+.partner-logo {
+  height: 100px; /* Default height */
+  object-fit: contain;
+}
+
+/* Adjust the two Microsoft images */
+.partner-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-logo-container img {
+  height: 100px; /* Match the height of other logos */
+  margin: 0 5px; /* Spacing between the images */
+}
+
+/* Specific styles for the stama image */
+.stama-logo {
+  height: 320px; /* Adjust to the desired height */
+  object-fit: contain;
+  /* Additional styles if needed */
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+  .partner-logo,
+  .partner-logo-container img {
+    height: 70px; /* Reduce height on small screens */
+  }
+
+  .stama-logo {
+    height: 200px; /* Adjust height for small screens */
+  }
+}
+/* Media query for small screens */
+@media(min-width: 992px) { /* Bootstrap lg breakpoint */
+  .services .row.gy-4 {
+    display: flex;
+  }
+  .services .col-lg-6.col-md-12 {
+    flex: 1;
+  }
+  .services .hero-img.youtube {
+    margin-top: 0;
+  }
+  .services .left-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .services .video-and-features {
+    display: flex;
+  }
+  .services .video-and-features .hero-img {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .services .video-and-features .features-grid {
+    flex: 1;
+  }
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
