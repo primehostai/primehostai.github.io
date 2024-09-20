@@ -47,6 +47,25 @@
 }
 
 
+/* Style for the "Coming Soon" overlay */
+.coming-soon {
+   background-color: rgba(255, 165, 0, 0.9); /* Orange background with transparency */
+   color: white;
+   padding: 1px 5px;
+   font-size: 12px;
+   border-radius: 5px;
+   text-transform: uppercase;
+}
+
+/* Style for the "Coming Soon" overlay */
+.beta {
+   background-color: #4E1E7B; /* Orange background with transparency */
+   color: white;
+   padding: 1px 5px;
+   font-size: 12px;
+   border-radius: 5px;
+   text-transform: uppercase;
+}
 
 .feature-item {
   display: flex;
