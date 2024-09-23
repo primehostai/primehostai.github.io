@@ -30,9 +30,9 @@ PrimeHost’s All-in-One AI Assistant is now available through Guesty's unified 
 
 <img src="/docs/media/Screenshot 2024-05-30 at 6.15.29 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
-**Go to** [**https://primehost.ai**](https://primehost.ai) **and click Dashboard**
+**Go to** [**https://primehost.ai**](https://primehost.ai) **and click Login or Signup**
 
-<img src="/docs/media/Screenshot 2024-05-20 at 7.02.51 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+<img src="/docs/media/new_dash.jpg" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 **Login in or sign up**
 
@@ -44,10 +44,10 @@ PrimeHost’s All-in-One AI Assistant is now available through Guesty's unified 
 
 **Select Guesty Integration**
 
-<img src="/docs/media/select%20guesty.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+<img src="/docs/media/integrations.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 **Paste the API Token from your Guesty Account**
 
-<img src="/docs/media/Guesty%20API%20key.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+<img src="/docs/media/guesty_calry.png" alt="guesty_calry" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 <p style="text-align: right"><strong>Your Listings have been imported, Happy chats! :)</strong></p>
