@@ -38,9 +38,9 @@ PrimeHost’s All-in-One AI Assistant is now available through Guesty's unified 
 
 <img src="/docs/media/log%20in%20large.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
-**Click integrations button from the side bar**
+**Click Integrations button from the side bar**
 
-<img src="/docs/media/Screenshot 2024-05-20 at 6.25.56 PM.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+<img src="/docs/media/new_home.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
 **Select Guesty Integration**
 
