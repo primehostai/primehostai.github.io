@@ -384,6 +384,9 @@ body {
 a {
   color: #4E1E7B;
   text-decoration: none;
+   word-wrap: break-word; /* Ensure long URLs break */
+   display: inline-block; /* Ensure link respects width */
+   max-width: 100%; /* Link width won't exceed its container */
 }
 
 a:hover {
@@ -2413,7 +2416,15 @@ section {
 }
 
 .blog-posts .post-img img {
-  height: 100px;
+  /* max-height: 100px; */
+  width:50%;
+}
+
+@media (max-width: 768px) {
+  .blog-posts .post-img img {
+    /* max-height: 100px; */
+    width:80%;
+  }
 }
 
 .blog-posts .title {
@@ -2435,6 +2446,10 @@ section {
 .blog-posts .meta-top {
   margin-top: 20px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.blog-posts ul {
+  font-size: 18px;
 }
 
 .blog-posts .meta-top ul {
@@ -2466,6 +2481,7 @@ section {
 
 .blog-posts .content {
   margin-top: 20px;
+  font-size: 16px;
 }
 
 .blog-posts .content .read-more {
