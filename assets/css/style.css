@@ -67,6 +67,22 @@
    text-transform: uppercase;
 }
 
+.free {
+  background-color: #146c43; /* Orange background with transparency */
+  color: white;
+  padding: 1px 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.pro {
+  background-color: #146c43; /* Orange background with transparency */
+  color: white;
+  padding: 1px 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
 .feature-item {
   display: flex;
   align-items: center;
