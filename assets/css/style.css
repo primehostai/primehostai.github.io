@@ -218,6 +218,13 @@
   }
 }
 
+@media (max-width: 992px) { /* Target screens mobile*/
+  .custom-img {
+    scale: 120%;
+    max-width: 1200px; /* Increase the max-width */
+  }
+}
+
 .text-style{
   font-size: large;
 }
