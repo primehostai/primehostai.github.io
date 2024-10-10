@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="2130fa45-b5fb-427c-ae2b-539d5de0bdb6" data-blockingmode="auto" type="text/javascript"></script>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -9,7 +10,54 @@
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-5928ZRJQ');</script>
   <!-- End Google Tag Manager -->
+  <script>
 
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-52N655M6CY');
+
+    window.addEventListener('scroll', function () {
+      var aboutUsSection = document.getElementById('free-services');
+      if (window.scrollY >= aboutUsSection.offsetTop) {
+        gtag('event', 'page_view', {
+          'page_path': '/free-services',
+          'page_title': 'Free Services Section' // Optional, adds a title to the pageview
+        });
+      }
+    });
+    window.addEventListener('scroll', function () {
+      var aboutUsSection = document.getElementById('howto');
+      if (window.scrollY >= aboutUsSection.offsetTop) {
+        gtag('event', 'page_view', {
+          'page_path': '/how',
+          'page_title': 'How section' // Optional, adds a title to the pageview
+        });
+      }
+    });
+
+    function logLinkClickEvent(event) {
+      var hrefValue = event.target.getAttribute('href') || 'no-href'; // Get the href of the clicked link or 'no-href' if not present
+      gtag('event', 'page_view', {
+        // 'event_category': 'LinkClick',   // Category of the event
+        // 'event_label': hrefValue,        // Label, which is the href of the clicked link
+        // 'event_action': 'click'          // Action of the event
+        'page_path': hrefValue,
+        'page_title': hrefValue // Optional, adds a title to the pageview
+      });
+    }
+
+    // Add event listener to all <a> elements
+    var links = document.querySelectorAll('a');
+    links.forEach(function (link) {
+      link.addEventListener('click', logLinkClickEvent);
+    });
+  </script>
 
 
 
