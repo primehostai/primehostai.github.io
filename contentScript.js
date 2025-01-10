@@ -1,7 +1,7 @@
 /*******************************************
  * contentScript.js
  *******************************************/
-BASE_URL = "https://api.primehost.ai";
+BASE_URL = "api.primehost.ai";
 //BASE_URL = "http://localhost:8085";
 
 // Create a style tag to hold our CSS
