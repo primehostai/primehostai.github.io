@@ -5,10 +5,17 @@
   <!-- Google Tag Manager -->
   <!-- End Google Tag Manager -->
   <script>
-    if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    // Check if the device is NOT a mobile device using matchMedia
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+  
+    if (!isMobile) {
+      // Dynamically create a <script> tag
       const script = document.createElement('script');
       script.src = 'contentScript.js';
-      document.head.appendChild(script);
+      script.async = true; // Non-blocking
+      script.onload = () => console.log('Script loaded successfully.');
+      script.onerror = () => console.error('Failed to load the script.');
+      document.head.appendChild(script); // Append to <head>
     }
   </script>
 
