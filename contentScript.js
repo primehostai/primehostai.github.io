@@ -141,7 +141,10 @@ document.addEventListener("DOMContentLoaded", () => {
   `;
 
   // Add container to the page
-  document.body.appendChild(container);
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+  if (!isMobile) {
+    document.body.appendChild(container);
+  }
 
   // Audio + WebSocket logic
   let audioContext;

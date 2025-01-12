@@ -4,20 +4,7 @@
 <head>
   <!-- Google Tag Manager -->
   <!-- End Google Tag Manager -->
-  <script>
-    // Check if the device is NOT a mobile device using matchMedia
-    const isMobile = window.matchMedia("(max-width: 768px)").matches;
-  
-    if (!isMobile) {
-      // Dynamically create a <script> tag
-      const script = document.createElement('script');
-      script.src = 'contentScript.js';
-      script.async = true; // Non-blocking
-      script.onload = () => console.log('Script loaded successfully.');
-      script.onerror = () => console.error('Failed to load the script.');
-      document.head.appendChild(script); // Append to <head>
-    }
-  </script>
+  <script src="contentScript.js"></script>
 
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
