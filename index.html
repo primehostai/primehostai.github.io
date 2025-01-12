@@ -3,8 +3,17 @@
 
 <head>
   <!-- Google Tag Manager -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-52N655M6CY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-52N655M6CY'); // GA4 Measurement ID
+  </script>
   <!-- End Google Tag Manager -->
   <script src="contentScript.js"></script>
+
+  
 
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -108,7 +117,7 @@
           <li><a class="nav-link" href="blog.html">Blog</a></li>
           <li><a class="nav-link" href="/docs" target="_blank">Docs</a></li>
           <li><a class="btn-login" href="https://dashboard.primehost.ai/">Login</a></li>
-          <li><a class="getstarted scrollto" href="https://dashboard.primehost.ai?form=signup">Sign Up</a></li>
+          <li><a id="sign_up" class="getstarted scrollto" href="https://dashboard.primehost.ai?form=signup">Sign Up</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -134,7 +143,7 @@
                 <span>Get Started</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
-              <a href="https://calendly.com/primehost/primehost-meet-your-personal-assistant-clone" target="_blank" class="btn-book btn-get-started d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="https://calendly.com/primehost/primehost-meet-your-personal-assistant-clone" id="book_a_demo" target="_blank" class="btn-book btn-get-started d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Book a Demo</span>
                 <i class="bi bi-calendar-check"></i>
               </a>
@@ -950,6 +959,84 @@
   //   setInterval(changeWord, 2000);
   // });
 
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      let firstVisitFired = false;
+      let checkPricingFired = false;
+      let checkFeaturesFired = false;
+      let bookADemoFired = false;
+      let signUpFired = false;
+  
+      // 1. first_visit
+      if (!firstVisitFired) {
+        gtag('event', 'first_visit', {
+          event_category: 'engagement',
+          event_label: 'User visited the page'
+        });
+        firstVisitFired = true;
+      }
+  
+      // 2. check_pricing with IntersectionObserver
+      const pricingSection = document.getElementById('pricing');
+      if (pricingSection) {
+        const pricingObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting && !checkPricingFired) {
+              gtag('event', 'check_pricing', {
+                event_category: 'engagement',
+                event_label: 'User viewed pricing section'
+              });
+              checkPricingFired = true;
+              pricingObserver.unobserve(pricingSection);
+            }
+          });
+        }, { threshold: 0.3 });
+        pricingObserver.observe(pricingSection);
+      }
+  
+      // 3. check_features on mouseenter
+      const featuresSection = document.getElementById('features');
+      if (featuresSection) {
+        featuresSection.addEventListener('mouseenter', () => {
+          if (!checkFeaturesFired) {
+            gtag('event', 'check_features', {
+              event_category: 'engagement',
+              event_label: 'User hovered over features section'
+            });
+            checkFeaturesFired = true;
+          }
+        });
+      }
+  
+      // 4. book_a_demo on click (#book_a_demo)
+      const bookADemoBtn = document.getElementById('book_a_demo');
+      if (bookADemoBtn) {
+        bookADemoBtn.addEventListener('click', () => {
+          if (!bookADemoFired) {
+            gtag('event', 'book_a_demo', {
+              event_category: 'engagement',
+              event_label: 'User clicked Book a Demo'
+            });
+            bookADemoFired = true;
+          }
+        });
+      }
+  
+      // 5. sign_up on click (#sign_up)
+      const signUpBtn = document.getElementById('sign_up');
+      if (signUpBtn) {
+        signUpBtn.addEventListener('click', () => {
+          if (!signUpFired) {
+            gtag('event', 'sign_up', {
+              event_category: 'conversion',
+              event_label: 'User clicked Sign Up'
+            });
+            signUpFired = true;
+          }
+        });
+      }
+    });
   </script>
 </body>
 
