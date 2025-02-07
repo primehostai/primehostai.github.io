@@ -152,7 +152,7 @@
   background: #4E1E7B;
   color: #fff;
   padding: 10px 20px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   transition: 0.3s;
 }
 
@@ -1199,6 +1199,26 @@ section {
   }
 }
 
+.how .btn-how-alter {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 5px;
+  color: #200B47;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #200B47;
+  background-color: #fff;
+}
+
+.how .btn-how-alter:hover {
+  background: #200B47;
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -1836,6 +1856,45 @@ section {
 }
 
 .pricing .btn-buy:hover {
+  background: #200B47;
+  color: #fff;
+}
+
+.pricing .btn-pricing {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 5px;
+  color: #200B47;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #200B47;
+}
+
+.pricing .btn-pricing:hover {
+  background: #200B47;
+  color: #fff;
+}
+
+.pricing .btn-pricing-alter {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 5px;
+  color: #200B47;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #200B47;
+  background-color: #fff;
+}
+
+.pricing .btn-pricing-alter:hover {
   background: #200B47;
   color: #fff;
 }
