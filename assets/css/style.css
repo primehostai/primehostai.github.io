@@ -3839,3 +3839,22 @@ section {
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+.video{
+  padding: 20px; /* Space inside the box */
+  border-radius: 15px; /* Rounded corners */
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  border: 1px solid #ccc; /* Grey border */
+  border-radius: 12px; /* Rounded corners */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  width: 100%;  /* Cover 80% of the width */
+  min-width: 300px; /* Minimum width to prevent it from becoming too small */
+  /* max-width: 1000px; /* Optional: Set a max width */ */
+  display: block;
+  margin: auto; /* Center the video */
+}

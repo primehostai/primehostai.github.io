@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     /* Record button initially floats at bottom-right (class .bottom-floating) */
     #audio-recorder-container #recordBtn.bottom-floating {
       position: absolute;
-      bottom: 0;
+      bottom: -5px;
       right: 40px;
     }
 
@@ -76,9 +76,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     /* Common styles for the record button */
     #audio-recorder-container #recordBtn {
-      width: 55px; /* 10% larger */
-      height: 55px; /* 10% larger */
-      border-radius: 50%;
+      width: 100px; /* 10% larger */
+      height: 40px; /* 10% larger */
+      border-radius: 5px;
       border: none;
       background-color: #230A4A;
       color: #fff;
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
       font-weight: bold;
       visibility: hidden; /* Initially hidden */
       pointer-events: none; /* Initially disabled */
-      
+
     }
 
     /* Button states (active, playing) */
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <button id="closeBtn">&times;</button>
       <div class="messages-container" id="messages"></div>
     </div>
-    <button id="recordBtn" class="bottom-floating" disabled>Ask AI</button>
+    <button id="recordBtn" class="bottom-floating" disabled>Ask AI <i class="bi bi-stars" style="margin-left:5px"></i></button>
   `;
 
   // Add container to the page
@@ -245,7 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (existingModal) {
         document.body.removeChild(existingModal);
       }
-    
+
       const modal = document.createElement('div');
       modal.classList.add('custom-modal');
       modal.style.position = 'fixed';
@@ -258,7 +258,7 @@ document.addEventListener("DOMContentLoaded", () => {
       modal.style.justifyContent = 'center';
       modal.style.alignItems = 'center';
       modal.style.zIndex = '1000';
-    
+
       const iframe = document.createElement('iframe');
       iframe.src = url;
       iframe.style.width = '90%';
@@ -266,7 +266,7 @@ document.addEventListener("DOMContentLoaded", () => {
       iframe.style.border = 'none';
       iframe.style.borderRadius = '10px';
       iframe.style.boxShadow = '0 0 10px rgba(0,0,0,0.25)';
-    
+
       const closeButton = document.createElement('button');
       closeButton.innerHTML = '&times;';
       closeButton.style.position = 'absolute';
@@ -277,15 +277,15 @@ document.addEventListener("DOMContentLoaded", () => {
       closeButton.style.fontSize = '30px';
       closeButton.style.color = 'white';
       closeButton.style.cursor = 'pointer';
-    
+
       closeButton.onclick = () => document.body.removeChild(modal);
-    
+
       // Listen for iframe load event
       iframe.addEventListener('load', () => {
         try {
           // Access the iframe content
           const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-    
+
           if (iframeDoc) {
             // Dispatch custom event with iframe content
             const event = new CustomEvent('iframe_content_complete', {
@@ -299,7 +299,7 @@ document.addEventListener("DOMContentLoaded", () => {
           alert('Error accessing iframe content: ' + error.message);
         }
       });
-    
+
       modal.appendChild(iframe);
       modal.appendChild(closeButton);
       document.body.appendChild(modal);
@@ -339,7 +339,7 @@ document.addEventListener("DOMContentLoaded", () => {
           // wait for 5seconds and  create a custom event to close the websocket
           const event = new CustomEvent('websocket_close', { detail: ws });
           document.dispatchEvent(event);
-          
+
       };
     } else if (message.event === 'text' && message.text) {
       displayMessage(message.text, false, false);
