@@ -20,7 +20,7 @@ Here we show how an end-user can authenticate the integration between Hostaway a
     <p style="text-align: center"><img src="https://github.com/primehostai/primehostai.github.io/blob/main/docs/media/hostaway.png?raw=true" alt="hostaway.png"></p>
 4.  This will expand the partner box and you can click on _'Connect'_ again to generate the keys.
     
-    ![hostaway auth 3](https://docs.calry.app/assets/images/hostaway_auth_3-c6462cb67302978779e155b5d6eb2b00.png)
+    ![hostaway_auth_3.png](https://github.com/primehostai/primehostai.github.io/blob/main/docs/media/hostaway_auth_3.png?raw=true)
     
 5.  Then you click _‘Create’_ to generate the API Key.
     
