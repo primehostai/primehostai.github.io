@@ -15,16 +15,9 @@ Here we show how an end-user can authenticate the integration between Hostaway a
     
     ![hostaway auth 1](https://docs.calry.app/assets/images/hostaway_auth_1-ad840f7632b290035216b6a5a29add51.png)
     
-3.  Now, switch over to your Hostaway Account in a new tab. Click on _‘Marketplace’_ within Hostaway Dashboard, then search for PrimeHost and click on the _‘Connect/Configure’_ button available there. !\[desc\]([https://raw.githubusercontent.com/primehostai/primehostai.github.io/refs/heads/main/docs/media/hostaway.png](https://raw.githubusercontent.com/primehostai/primehostai.github.io/refs/heads/main/docs/media/hostaway.png))
+3.  Now, switch over to your Hostaway Account in a new tab. Click on _‘Marketplace’_ within Hostaway Dashboard, then search for PrimeHost and click on the _‘Connect/Configure’_ button available there.
     
-    ```
-    ![hostaway auth 1](/media/hostaway.png)
-    ```
-    
-    <img src="/docs/media/hostaway.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-    
-    ![hostaway auth 2](https://docs.calry.app/assets/images/hostaway_auth_2-9d92f405cfe2e17d41582b28aab12495.png)
-    
+    <p style="text-align: center"><img src="/docs/media/hostaway.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></p>
 4.  This will expand the partner box and you can click on _'Connect'_ again to generate the keys.
     
     ![hostaway auth 3](https://docs.calry.app/assets/images/hostaway_auth_3-c6462cb67302978779e155b5d6eb2b00.png)
