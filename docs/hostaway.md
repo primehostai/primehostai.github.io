@@ -15,7 +15,7 @@ Here we show how an end-user can authenticate the integration between Hostaway a
     
     ![hostaway auth 1](https://docs.calry.app/assets/images/hostaway_auth_1-ad840f7632b290035216b6a5a29add51.png)
     
-3.  Now, switch over to your Hostaway Account in a new tab. Click on _‘Marketplace’_ within Hostaway Dashboard, then search for PrimeHost and click on the _‘Connect/Configure’_ button available there.
+3.  Now, switch over to your Hostaway Account in a new tab. Click on _‘Marketplace’_ within Hostaway Dashboard, then search for PrimeHost and click on the _‘Connect/Configure’_ button available there. ![Image description](/media/hostaway_auth_2-9d92f405cfe2e17d41582b28aab12495.png)
     
     ![hostaway auth 2](https://docs.calry.app/assets/images/hostaway_auth_2-9d92f405cfe2e17d41582b28aab12495.png)
     
