@@ -17,14 +17,14 @@ Here we show how an end-user can authenticate the integration between Hostaway a
     
 3.  Now, switch over to your Hostaway Account in a new tab. Click on _‘Marketplace’_ within Hostaway Dashboard, then search for PrimeHost and click on the _‘Connect/Configure’_ button available there.
     
-    <p style="text-align: center"><img src="/docs/media/hostaway.png" alt="Screenshot" style="margin: 20px; width: 80%; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></p>
+    <p style="text-align: center"><img src="https://github.com/primehostai/primehostai.github.io/blob/main/docs/media/hostaway.png?raw=true" alt="hostaway.png"></p>
 4.  This will expand the partner box and you can click on _'Connect'_ again to generate the keys.
     
     ![hostaway auth 3](https://docs.calry.app/assets/images/hostaway_auth_3-c6462cb67302978779e155b5d6eb2b00.png)
     
 5.  Then you click _‘Create’_ to generate the API Key.
     
-    !\[hostaway\](/media/hostaway\_save.png)
+    ![hostaway_save.png](https://github.com/primehostai/primehostai.github.io/blob/main/docs/media/hostaway_save.png?raw=true)
     
     The new credentials will then be presented on the screen. Please make sure to copy and save the API Key safely as it will be visible only once.
     
