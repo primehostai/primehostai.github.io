@@ -24,7 +24,7 @@ Here we show how an end-user can authenticate the integration between Hostaway a
     
 5.  Then you click _‘Create’_ to generate the API Key.
     
-    ![hostaway auth 4](https://docs.calry.app/assets/images/hostaway_auth_4-0b462ede29a9848092eeaf4e750ebc7a.png)
+    !\[hostaway\](/media/hostaway\_save.png)
     
     The new credentials will then be presented on the screen. Please make sure to copy and save the API Key safely as it will be visible only once.
     
