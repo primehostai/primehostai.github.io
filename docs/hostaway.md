@@ -1,5 +1,6 @@
 ---
 title: Hostaway
+nav_order: 4
 published: true
 ---
 # Hostaway
